@@ -8,7 +8,6 @@ const Home = () => {
     <div className='fade'>
       <Carousel/>
       <Body/>
-      <Footer/>
     </div>
   )
 }
