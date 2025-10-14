@@ -260,7 +260,7 @@ const Photobooth = () => {
 
 
   {/* Fond qui slide */}
-  <div className='w-full  flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-3 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
+  <div className='w-full  flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-1 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
 <div className="flex w-11/12 justify-evenly items-center max-sm:flex-col max-sm:items-center max-sm:justify-center my-5">
 <div 
   className="w-full h-52 bg-[#f7f6f6] overflow-hidden relative cursor-pointer py-6 mx-2 max-sm:m-2 shadows"
@@ -440,7 +440,7 @@ const Photobooth = () => {
 
 
   {/* Fond qui slide */}
-  <div className='w-full  flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-3 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
+  <div className='w-full  flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-1 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
 <div className="flex w-11/12 justify-evenly items-center max-sm:flex-col max-sm:items-center max-sm:justify-center my-5 ">
 <div 
   className="w-full h-52 bg-[#f7f6f6] overflow-hidden relative cursor-pointer py-6 mx-2 max-sm:m-2 shadows"
@@ -621,7 +621,7 @@ const Photobooth = () => {
 
 
   {/* Fond qui slide */}
-  <div className='w-full flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-3 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
+  <div className='w-full flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-1 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
 <div className="flex w-11/12 justify-evenly items-center max-sm:flex-col max-sm:items-center max-sm:justify-center my-5">
 <div 
   className="w-full h-52 bg-[#f7f6f6] overflow-hidden relative cursor-pointer py-6 mx-2 max-sm:m-2 shadows"
