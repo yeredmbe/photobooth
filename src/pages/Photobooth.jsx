@@ -73,7 +73,7 @@ const Photobooth = () => {
       </div>
 
       <div className='w-full flex items-center justify-center max-sm:w-full max-sm:flex-col max-sm:items-center max-sm:justify-center mt-8 pt-8'>
-        <div className='w-11/12 grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 max-sm:px-0'>
+        <div className='w-11/12 grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 max-sm:px-1'>
             <img src="https://images.unsplash.com/photo-1617676480063-1f0b26a5e04d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="" className='shadows' />
             <img src="https://images.unsplash.com/photo-1643651576156-c062a5b8c324?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="" className='max-sm:hidden shadows' />
         </div>
@@ -81,7 +81,7 @@ const Photobooth = () => {
 
 
   {/* Fond qui slide */}
-  <div className='w-full  flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-3 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
+  <div className='w-full  flex flex-col items-center justify-center max-sm:items-center max-sm:justify-center max-sm:px-1 max-sm:mt-0 max-sm:pt-0 mt-12 pt-8 '>
 <div className="flex w-11/12 justify-evenly items-center max-sm:flex-col max-sm:items-center max-sm:justify-center my-5 ">
 <div 
   className="w-full h-52 bg-[#f7f6f6] overflow-hidden relative cursor-pointer py-6 mx-2 max-sm:m-2 shadows"
