@@ -52,7 +52,7 @@ const Forfait = () => {
 
            <div className='border flex items-center justify-center flex-col py-2 px-2'>
                 <p className='mt-2'>3 HEURES DE SERVICE</p>
-                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
                 <p className='text-5xl'>749$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -61,7 +61,7 @@ const Forfait = () => {
            
           <div className='border flex items-center justify-center flex-col py-2 px-2 bg-black'>
                 <p className='mt-2 text-white'>4 HEURES DE SERVICE</p>
-               <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+               <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
                 <p className='text-5xl text-[#9e8121] '>849$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -70,7 +70,7 @@ const Forfait = () => {
 
            <div className='border flex items-center justify-center flex-col py-2 px-2'>
                 <p className='mt-2'>6 HEURES DE SERVICE</p>
-           <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+           <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
                 <p className='text-5xl'>999$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -114,7 +114,7 @@ const Forfait = () => {
 
            <div className='border flex items-center justify-center flex-col py-2 px-2'>
                 <p className='mt-2'>3 HEURES DE SERVICE</p>
-                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5  my-5 ' />
                 <p className='text-5xl'>749$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -123,7 +123,7 @@ const Forfait = () => {
            
           <div className='border flex items-center justify-center flex-col py-2 px-2 bg-black'>
                 <p className='mt-2 text-white'>4 HEURES DE SERVICE</p>
-               <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+               <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5  my-5 ' />
                 <p className='text-5xl text-[#9e8121] '>849$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -132,7 +132,7 @@ const Forfait = () => {
 
            <div className='border flex items-center justify-center flex-col py-2 px-2'>
                 <p className='mt-2'>6 HEURES DE SERVICE</p>
-           <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+           <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5  my-5 ' />
                 <p className='text-5xl'>999$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -176,7 +176,7 @@ const Forfait = () => {
 
            <div className='border flex items-center justify-center flex-col py-2 px-2'>
                 <p className='mt-2'>3 HEURES DE SERVICE</p>
-                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
                 <p className='text-5xl'>749$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -185,7 +185,7 @@ const Forfait = () => {
            
           <div className='border flex items-center justify-center flex-col py-2 px-2 bg-black'>
                 <p className='mt-2 text-white'>4 HEURES DE SERVICE</p>
-               <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+               <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
                 <p className='text-5xl text-[#9e8121] '>849$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -194,7 +194,7 @@ const Forfait = () => {
 
            <div className='border flex items-center justify-center flex-col py-2 px-2'>
                 <p className='mt-2'>6 HEURES DE SERVICE</p>
-           <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+           <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
                 <p className='text-5xl'>999$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
@@ -228,7 +228,7 @@ const Forfait = () => {
 
            <div className='border flex items-center justify-center flex-col py-2 px-2 bg-black mt-10 max-sm:mt-2'>
                 <p className='mt-2 text-white'>3 HEURES DE SERVICE</p>
-                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
+                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5  my-5 ' />
                 <p className='text-5xl text-[#9e8121]'>749$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-black hover:bg-white transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
