@@ -47,7 +47,7 @@ const Carousel = () => {
             <h1 className="text-white text-center text-[calc(3rem+1vw)] md:text-6xl font-bold ">Êtes-vous prêt à fêter avec style ?</h1> 
                <h3 className="text-white text-center text-[calc(1.5rem+1vw)] md:text-3xl font-semibold ">Bienvenue chez <span className='text-[#9e8121]'>Elikia Events</span>, le meilleur service de location de Photobooth à Montréal.</h3>
                <div className='w-full max-sm:flex-col flex items-center justify-center'>
-                  <button className="mt-6 max-sm:w-2/3 w-[20%] mx-3 cursor-pointer px-6 py-3 bg-[#9e8121] border border-  text-white text-lg font-medium  hover:bg-black/30 transition duration-500 hover:border-white ease-in-out">Réservez Maintenant</button>
+                  <button className="mt-6 max-sm:w-2/3 w-[20%] mx-3 cursor-pointer px-6 py-3 bg-[#9e8121] border border-[#9e8121]  text-white text-lg font-medium  hover:bg-black/30 transition duration-500 hover:border-white ease-in-out">Réservez Maintenant</button>
                    <button className="mt-6 max-sm:w-2/3 w-[20%] px-6 cursor-pointer py-3 bg-black/30 border border-white text-white text-lg font-medium  hover:bg-white hover:text-black ease-in-out transition duration-500">Appelez  Nous</button>
                </div>
               
