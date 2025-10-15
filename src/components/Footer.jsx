@@ -14,9 +14,9 @@ const Footer = () => {
        <p className=''>COPYRIGHT © 2024 Elika Events</p>
        <img src='./logo.png' className='max-sm:my-2 size-28'/> 
        <div className='flex items-center justify-between max-sm:justify-around max-sm:w-8/12 md:w-1/5 responsive  max-sm:px-2 '>
-        <div className='max-sm:my-5 flex items-center justify-center'><img src="./google.png" alt="" className='size-6 mr-1' /> <p className='max-sm:hidden'> GOOGLE</p></div>
-        <div className='max-sm:my-5 flex items-center justify-center mx-8'><img src="./instagram.png" alt="" className='size-6 mr-1 ' /> <p className='max-sm:hidden'>INSTAGRAM</p> </div>
-        <div className='max-sm:my-5 flex items-center justify-center'><img src="./social.png" alt="" className='size-6 mr-1' /> <p className='max-sm:hidden'>FACEBOOK</p></div>
+        <div className='max-sm:my-3 flex items-center justify-center'><img src="./google.png" alt="" className='size-6 mr-1' /> <p className='max-sm:hidden'> GOOGLE</p></div>
+        <div className='max-sm:my-3 flex items-center justify-center mx-8'><img src="./instagram.png" alt="" className='size-6 mr-1 ' /> <p className='max-sm:hidden'>INSTAGRAM</p> </div>
+        <div className='max-sm:my-3 flex items-center justify-center'><img src="./social.png" alt="" className='size-6 mr-1' /> <p className='max-sm:hidden'>FACEBOOK</p></div>
        </div>
         </div>
         <div className='w-full text-white text-center p-2'>
