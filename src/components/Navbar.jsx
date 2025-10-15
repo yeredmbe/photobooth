@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='w-full flex flex-col justify-center items-center'>
+    <div className='w-full flex flex-col justify-center items-center bg-amber-50'>
       <div className='w-11/12 flex items-center justify-between '>
         <Link to="/" >
 <img src='./logo.png' className='size-28 my-2 max-sm:size-20'/>
