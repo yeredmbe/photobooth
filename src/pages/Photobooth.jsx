@@ -44,12 +44,12 @@ const Photobooth = () => {
   }]
 
 
-  const text=[ {title:"Survolez-moi !", desc:"Contactez-nous pour plus d'informations!"},
-    {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
-    {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
-    {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
+//   const text=[ {title:"Survolez-moi !", desc:"Contactez-nous pour plus d'informations!"},
+//     {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
+//     {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
+//     {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
 
-  ]
+//   ]
 
   return (
     <>

@@ -154,7 +154,7 @@ const Body = () => {
       </div>
       </div>
 
-        <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 my-8 bg-[#9e8121]/40 py-8'>
+        <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2 bg-[#9e8121]/40 py-8'>
         <div className='w-10/12 max-sm:w-full flex flex-col items-center justify-center '>
         <p className='text-[#9e8121]/50 text-2xl my-4'>Demande de réservation</p>
         <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>

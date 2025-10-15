@@ -6,6 +6,8 @@ import 'aos/dist/aos.css';
 import Home from "./pages/Home";
 import Photobooth from "./pages/Photobooth";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Forfait from "./pages/Forfait";
 AOS.init();
 
 function App() {
@@ -14,11 +16,11 @@ function App() {
   return (
     <>
 <Router>
-  <Link to="/">Home</Link>
-  <Link to="/photobooth">Photobooth</Link>
+<Navbar/>
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/photobooth" element={<Photobooth />} />
+    <Route path="/forfaits" element={<Forfait />} />
   </Routes>
   <Footer />
 </Router>
