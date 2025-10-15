@@ -51,7 +51,7 @@ const Body = () => {
         <p className='text-5xl w-1/2 max-sm:hidden'>Vous voulez que votre prochain événement se démarque ?</p>
         <div className=' w-1/2  max-sm:w-11/12 max-sm:py-4' >
             <p className='text-[#9e8121]/50 text-3xl mb-1 max-sm:text-5xl max-sm:text-center max-sm:my-6'>Nous avons le Photobooth qu'il vous faut.</p>
-            <p className='text-3xl max-sm:text-center max-sm:text-xl'>En choisissant Fotobo pour votre prochain service de location de Photobooth, vous ajouterez une touche mémorable à votre événement !</p>
+            <p className='text-3xl max-sm:text-center max-sm:text-xl'>En choisissant Elikia Events pour votre prochain service de location de Photobooth, vous ajouterez une touche mémorable à votre événement !</p>
         </div>
         </div>
         <div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
