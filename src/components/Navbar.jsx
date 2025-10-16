@@ -67,7 +67,7 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <div className='text-sm absolute bottom-1 text-[#9e8121] left-1/4  text-center justify-center items-center flex font-AdobeHebrew-italic'> developped with <img src='./love.png' className='size-4 mx-1' /> by Faurza</div>
+                <div className='text-sm absolute bottom-1 text-[#9e8121] left-1/4  text-center justify-center items-center flex font-AdobeHebrew-italic'> developped with <img src='./love.png' className='size-4 mx-1' /> by Faurza .</div>
             </div>
         </>
     )
