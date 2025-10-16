@@ -43,12 +43,12 @@ const Carousel = () => {
             />
           </div>
         ))}
-        <div className="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center z-30">
-            <h1 className="text-white text-center text-[calc(3rem+1vw)] md:text-6xl font-bold ">Êtes-vous prêt à fêter avec style ?</h1> 
-               <h3 className="text-white text-center text-[calc(1.5rem+1vw)] md:text-3xl font-semibold ">Bienvenue chez <span className='text-[#9e8121]'>Elikia Events</span>, le meilleur service de location de Photobooth à Montréal.</h3>
+        <div className="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center z-30 font-GaramondAntiqua">
+            <h1 className="text-white my-2 max-sm:my-1 text-center text-7xl max-sm:text-6xl uppercase font-bold ">Êtes-vous prêt à fêter avec style ?</h1> 
+               <h3 className="text-white text-center text-[calc(1.5rem+1vw)] md:text-3xl  font-GaramondAntiqua max-sm:mx-1">Bienvenue chez <span className='text-[#9e8121] font-semibold font-Alexandra-One text-6xl max-sm:text-5xl tracking-wider'>Elikia Events</span>, le meilleur service de location de Photobooth à Montréal.</h3>
                <div className='w-full max-sm:flex-col flex items-center justify-center'>
-                  <button className="mt-6 max-sm:w-2/3 w-[20%] mx-3 cursor-pointer px-6 py-3 bg-[#9e8121] border border-[#9e8121]  text-white text-lg font-medium  hover:bg-black/30 transition duration-500 hover:border-white ease-in-out">Réservez Maintenant</button>
-                   <button className="mt-6 max-sm:w-2/3 w-[20%] px-6 cursor-pointer py-3 bg-black/30 border border-white text-white text-lg font-medium  hover:bg-white hover:text-black ease-in-out transition duration-500">Appelez  Nous</button>
+                  <button className="mt-6 max-sm:w-2/3 w-[20%] mx-3 cursor-pointer px-6 py-3 bg-[#9e8121] border border-[#9e8121]  text-white font-medium  hover:bg-black/30 transition duration-500 hover:border-white ease-in-out text-2xl max-sm:text-lg">Réservez Maintenant</button>
+                   <button className="mt-6 max-sm:w-2/3 w-[20%] px-6 cursor-pointer py-3 bg-black/30 border border-white text-white text-2xl max-sm:text-lg font-medium  hover:bg-white hover:text-black ease-in-out transition duration-500">Appelez  Nous</button>
                </div>
               
         </div>

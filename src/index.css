@@ -1,12 +1,56 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "AdobeHebrew-Bold";
+  src: url("./assets/AdobeHebrew-Bold.otf")
+}
+
+@font-face {
+  font-family: "AdobeHebrew-italic";
+  src: url("./assets/AdobeHebrew-BoldItalic.otf")
+}
+
+@font-face {
+  font-family: "Alexandra-Script";
+  src: url("./assets/Alexandra-Script.ttf")
+}
+
+@font-face {
+  font-family: "AdobeHebrew-Bold";
+  src: url("./assets/Alexandra-Zeferino-One.ttf")
+}
+
+@font-face {
+  font-family: "AdobeArabic-Bold";
+  src: url("./assets/AdobeArabic-Bold.otf")
+}
+
+@font-face {
+  font-family: "GaramondAntiqua";
+  src: url("./assets/GaramondAntiqua.ttf");
+}
+
+@font-face {
+  font-family: "Sans-Font";
+  src: url("./assets/4974036603.ttf");
+}
+@theme{
+ --font-AdobeHebrew: 'AdobeHebrew-Bold', sans-serif;
+  --font-Alexandra: 'Alexandra-Script', cursive;
+  --font-AdobeHebrew-italic: 'AdobeHebrew-italic', sans-serif;
+  --font-Alexandra-One: 'Alexandra-Script', cursive;
+  --font-AdobeArabic: 'AdobeArabic-Bold', sans-serif;
+  --font-GaramondAntiqua: 'GaramondAntiqua', serif;
+  --font-Sans-Font: 'Sans-Font', sans-serif;
+}
+
 body::-webkit-scrollbar{
   background-color: #252524;
   width: 10px
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: #9e8121;
+  background-color: #9e8121c7;
   border-radius: 5px;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
