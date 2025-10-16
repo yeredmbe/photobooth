@@ -97,11 +97,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 px-2 transition-all duration-500 ease-in-out ${
       toggle1 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+  Look Interactif
   </p>
   
   {/* Deuxième texte */}
@@ -128,11 +128,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle2 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Photo De Haute Qualité
   </p>
   
   {/* Deuxième texte */}
@@ -159,11 +159,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle3 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Animation Amusantes
   </p>
   
   {/* Deuxième texte */}
@@ -190,11 +190,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out  ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out  ${
       toggle4 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+   Option Sur Mesure
   </p>
   
   {/* Deuxième texte */}
@@ -222,11 +222,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center  text-2xl py-3 transition-all duration-500 ease-in-out font-Sans-Font text-[#271a02] ${
+    className={`absolute inset-0 text-center py-3 text-5xl transition-all duration-500 ease-in-out font-GaramondAntiqua text-[#271a02] ${
       toggle ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Parfait Pour Les Mariages - Evernement Corporatifs - Fêtes Privées
   </p>
   
   {/* Deuxième texte */}
