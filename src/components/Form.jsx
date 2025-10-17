@@ -28,10 +28,10 @@ const PhotoboothForm = () => {
 
 
    const sendEmail = (e) => {
+    setLoading(true);
     e.preventDefault();
-setLoading(true);
     const serviceId = "service_zfkde0b";
-    const templateId = "template_6448jqv";
+    const templateId = "template_cu8j98j";
     const publicKey = "UF5zOcwhawe5P6b2b";
 
     const templateParams = {
@@ -46,7 +46,7 @@ setLoading(true);
     };
 
     emailjs
-      .sendForm(serviceId, templateId, templateParams,
+      .send(serviceId, templateId, templateParams,
         publicKey)
       .then(
         () => {
@@ -64,7 +64,7 @@ setLoading(false);
       });
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log('FAILED...', error);
 setLoading(false);
             setFormData({
         name: "",
