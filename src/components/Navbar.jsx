@@ -38,7 +38,7 @@ const Navbar = () => {
             aria-label={isOpen ? "Close menu" : "Open menu"}
         >
             <img 
-                src={isOpen ? "./cross.png" : "./text.png"} 
+                src={"/text.png"} 
                 alt={isOpen ? "Close menu" : "Open menu"} 
                 className='size-6' 
             />
@@ -78,7 +78,7 @@ const Navbar = () => {
                         </button>
                         <Link 
                             to="/contact" 
-                            className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer font-garamond text-white hover:bg-[#ac8402] transition-colors duration-300'
+                            className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer font-GaramondAntiqua text-white hover:bg-[#ac8402] transition-colors duration-300'
                         >
                             Reserver
                         </Link>
@@ -148,7 +148,7 @@ const Navbar = () => {
 
                 {/* Footer Credit */}
                 <div className='absolute bottom-4 left-0 right-0 text-center'>
-                    <p className='text-sm text-[#9e8121] flex items-center justify-center font-italic'>
+                    <p className='text-sm text-[#9e8121] flex items-center justify-center font-AdobeHebrew-italic'>
                         Developed with 
                         <img 
                             src='./love.png' 
