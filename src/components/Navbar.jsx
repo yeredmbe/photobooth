@@ -147,7 +147,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Footer Credit */}
-                <div className='absolute bottom-4 left-0 right-0 text-center'>
+                <a href='https://faurzanext.com/' className='absolute bottom-4 left-0 right-0 text-center'>
                     <p className='text-sm text-[#9e8121] flex items-center justify-center font-AdobeHebrew-italic'>
                         Developed with 
                         <img 
@@ -157,7 +157,7 @@ const Navbar = () => {
                         /> 
                         by Faurza
                     </p>
-                </div>
+                </a>
             </div>
         </>
     )

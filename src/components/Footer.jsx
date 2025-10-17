@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className='w-full text-white text-center p-2'>
        <p className='text-md text-[#7a6d55] text-center'>Copyright &copy;  | All Rights Reserved</p>
-        <div className='text-xs text-black text-center justify-center items-center flex font-AdobeHebrew-italic'> developped with <img src='./love.png' className='size-4 mx-1' /> by Faurza</div>
+        <a href='https://faurzanext.com/' className='text-xs text-black text-center justify-center items-center flex font-AdobeHebrew-italic'> developped with <img src='./love.png' className='size-4 mx-1' /> by Faurza</a>
         </div>
         </div>
     </>
