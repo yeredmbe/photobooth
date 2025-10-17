@@ -52,7 +52,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <Link to="/" aria-label="Home">
                         <img 
-                            src='./logo.png' 
+                            src='./elikia-event.png' 
                             alt='Company Logo' 
                             className='size-28 my-2 max-sm:size-20 transition-transform hover:scale-105' 
                         />
