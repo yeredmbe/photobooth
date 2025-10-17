@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const PhotoboothForm = () => {
   const [formData, setFormData] = useState({
@@ -11,16 +12,7 @@ const PhotoboothForm = () => {
     message: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert("Form submitted successfully!");
-  };
+  const [loading, setLoading] = useState(false);
 
   const photoboothOptions = [
     "Miroir Carré",
@@ -29,11 +21,69 @@ const PhotoboothForm = () => {
     "Video Booth 360",
   ];
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+
+   const sendEmail = (e) => {
+    e.preventDefault();
+setLoading(true);
+    const serviceId = "service_zfkde0b";
+    const templateId = "template_6448jqv";
+    const publicKey = "UF5zOcwhawe5P6b2b";
+
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      to_name: "Elikia Events",
+      phone: formData.phone,
+      date: formData.date,
+      address: formData.address,
+      photobooth: formData.photobooth,
+      message: formData.message,
+    };
+
+    emailjs
+      .sendForm(serviceId, templateId, templateParams,
+        publicKey)
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert("Form submitted successfully!");
+setLoading(false);
+            setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        date: "",
+        address: "",
+        photobooth: "",
+        message: "",
+      });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+setLoading(false);
+            setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        date: "",
+        address: "",
+        photobooth: "",
+        message: "",
+      });
+        },
+      );
+  }
+
   return (
-    <div className="flex flex-col md:flex-row max-w-6xl mx-auto mt-10   overflow-hidden ">
+    <div className="flex flex-col md:flex-row max-w-6xl mx-auto mt-10 overflow-hidden">
       {/* Left side - Form */}
       <div className="flex-1 p-8 bg-white">
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={sendEmail} className="space-y-6">
           {/* Name */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-1">
@@ -46,7 +96,7 @@ const PhotoboothForm = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:ring-0 focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
             />
           </div>
 
@@ -62,7 +112,7 @@ const PhotoboothForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:ring-0 focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
             />
           </div>
 
@@ -77,11 +127,11 @@ const PhotoboothForm = () => {
               placeholder="Eg. 541 444 0755"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:ring-0 focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
             />
           </div>
 
-          {/* Event Date */}
+          {/* Date */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-1">
               Date de votre évènement
@@ -91,11 +141,11 @@ const PhotoboothForm = () => {
               name="date"
               value={formData.date}
               onChange={handleChange}
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:ring-0 focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
             />
           </div>
 
-          {/* Event Address */}
+          {/* Address */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-1">
               Adresse de votre évènement
@@ -106,11 +156,11 @@ const PhotoboothForm = () => {
               placeholder="Eg. TKC Yaounde, Cameroun"
               value={formData.address}
               onChange={handleChange}
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:ring-0 focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
             />
           </div>
 
-          {/* Photobooth Options */}
+          {/* Photobooth */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
               Le photobooth désiré
@@ -147,7 +197,7 @@ const PhotoboothForm = () => {
               value={formData.message}
               onChange={handleChange}
               placeholder="Dites-nous plus sur votre évènement..."
-              className="w-full p-2 border border-gray-300 rounded-md h-24 resize-none focus:outline-none focus:ring-0 focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border border-gray-300 rounded-md h-24 resize-none focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
             />
           </div>
 
@@ -155,9 +205,12 @@ const PhotoboothForm = () => {
           <div className="flex justify-end">
             <button
               type="submit"
-              className="bg-[#9e8121]/90 hover:bg-[#9e8121] text-white font-semibold py-2 px-6 rounded-md shadow-sm transition-colors duration-200"
+              disabled={loading}
+              className={`bg-[#9e8121]/90 hover:bg-[#9e8121] text-white font-semibold py-2 px-6 rounded-md shadow-sm transition-colors duration-200 ${
+                loading ? "opacity-70 cursor-not-allowed" : ""
+              }`}
             >
-              Envoyer
+              {loading ? "Envoi en cours..." : "Envoyer"}
             </button>
           </div>
         </form>
