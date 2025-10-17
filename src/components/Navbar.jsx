@@ -47,7 +47,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='w-full flex flex-col justify-center items-center bg-[#f1eaea] relative font-sans'>
+            <nav className='w-full flex flex-col justify-center items-center bg-gray-950 relative font-sans'>
                 <div className='w-11/12 flex items-center justify-between'>
                     {/* Logo */}
                     <Link to="/" aria-label="Home">
@@ -64,7 +64,7 @@ const Navbar = () => {
                             <Link 
                                 to={link.link} 
                                 key={index}
-                                className='mx-4 text-lg text-black hover:text-[#9e8121] transition-colors duration-300'
+                                className='mx-4 text-lg text-white hover:text-[#9e8121] transition-colors duration-300'
                             >
                                 {link.name}
                             </Link>
