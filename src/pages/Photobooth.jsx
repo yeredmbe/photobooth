@@ -66,7 +66,7 @@ useEffect(() => {
 
   return (
     <>
-    <div className='w-full fade'>
+    <div className='w-full fade overflow-hidden'>
       <div className='w-full relative after:content-[""] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black/70 after:z-10 font-GaramondAntiqua'>
         <img src="https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-full h-96' />
         <div className='absolute left-1/2 top-1/2 w-full text-center -translate-x-1/2 -translate-y-1/2 z-20'>
