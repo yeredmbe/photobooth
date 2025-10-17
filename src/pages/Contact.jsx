@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import PhotoboothForm from '../components/Form';
 
 const Contact = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,7 +52,7 @@ const Contact = () => {
            </div>
          </div>
 
-           <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2 bg-[#9e8121]/40 py-8 font-GaramondAntiqua'>
+           <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2  py-8 font-GaramondAntiqua'>
         <div className='w-10/12 max-sm:w-full flex flex-col items-center justify-center '>
         <p className='text-white text-2xl my-4'>Demande de devis</p>
         <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
@@ -63,6 +64,9 @@ const Contact = () => {
          
       </div>
       </div>
+
+
+      <PhotoboothForm />
 
          <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
         <p className='text-[#9e8121]/50 text-3xl my-3 '>Les étapes clés</p>
