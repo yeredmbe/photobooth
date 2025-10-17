@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Photobooth = () => {
   const [toggle1, setToggle1] = React.useState(false);
@@ -6,6 +6,8 @@ const Photobooth = () => {
   const [toggle3, setToggle3] = React.useState(false);
   const [toggle4, setToggle4] = React.useState(false);
   const [toggle, setToggle] = React.useState(false);
+
+  const [currentIndex, setCurrentIndex] = React.useState(0);
 
   const handleToggle1 = () => {
     setToggle1(!toggle1);
@@ -26,6 +28,17 @@ const Photobooth = () => {
   const handleToggle = () => {
     setToggle(!toggle);
   };
+useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1);
+    }, 5000); // Change testimonial every 5 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+  const testimonials = [{text:" Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth. ", author:"- Sarah L."},
+  {text:" Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth. ", author:"- John D."},
+  {text:" Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth. ", author:"- John D."},
+  {text:" Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth. ", author:"- Sarah L."},]
 
  const data1=[{
     icon:"./touch.png",
@@ -811,21 +824,36 @@ const Photobooth = () => {
       </div>
       </div>
 
-      <div className='w-full  flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12  px-24'>
-      <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full' />
-      <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#9e8121]/40 '>
-        <h1 className='text-5xl my-5 font-GaramondAntiqua'>Voici ce que disent de nous</h1>
-        <img src="./arrow.png" alt="" className='size-32 absolute top-1 left-0 max-sm:hidden -z-10 opacity-55' />
-        <img src="./quote.png" alt="" className='size-20 absolute top-2 left-2 hidden max-sm:block -z-10 opacity-55' />
+   <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
+  <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full' />
+  <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#9e8121]/40'>
+    <h1 className='text-5xl my-2 font-GaramondAntiqua max-sm:text-3xl'>Voici ce que disent de nous</h1>
+    <img src="./arrow.png" alt="" className='size-32 absolute top-1 left-0 max-sm:hidden -z-10 opacity-55' />
+    <img src="./quote.png" alt="" className='size-20 absolute top-2 left-2 hidden max-sm:block -z-10 opacity-55' />
 
-        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg'>Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.
+    {/* Fixed testimonials container */}
+    <div className='w-full min-h-60 overflow-visible relative max-sm:min-h-60'>
+      {testimonials.length > 0 && testimonials.map((item, index) => (
+        <div 
+          key={index} 
+          className={`my-4 absolute top-0 left-0 w-full  max-sm:w-full flex flex-col items-center justify-center ${
+            index === currentIndex 
+              ? 'translate-x-0 opacity-100 transition-all duration-700 ease-in-out' 
+              : 'translate-x-full opacity-0 transition-all duration-700 ease-in-out'
+          }`}
+        >
+          <p className='italic text-lg max-sm:text-base leading-relaxed px-4 text-justify max-sm:text-center'>
+            " {item.text} "
+          </p>
+        </div>
+      ))}
+    </div>
 
-        Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth.
-</p>
-
-          <button className="mt-6  cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">DECOUVRIR NOS SERVICES</button>
-      </div>
-      </div>
+    <button className="mt-6 cursor-pointer px-6 py-3 bg-[#000] border border-[#000] text-white text-lg font-medium hover:text-black hover:bg-white transition duration-500 hover:border-black ease-in-out max-sm:text-base max-sm:px-4 max-sm:py-2">
+      DECOUVRIR NOS SERVICES
+    </button>
+  </div>
+</div>
       </div>
     </>
   )
