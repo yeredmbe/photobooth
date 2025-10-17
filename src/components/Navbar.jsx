@@ -33,7 +33,7 @@ const Navbar = () => {
 
     const MenuToggleButton = ({ isOpen, onClick }) => (
         <button 
-            className='p-3 rounded-sm shadow-sm hidden max-sm:block border-none bg-transparent hover:opacity-70 transition-opacity'
+            className='p-2 rounded-xs shadow-sm shadow-[#9e8121] hidden max-sm:block border-none bg-transparent hover:opacity-70 transition-opacity'
             onClick={onClick}
             aria-label={isOpen ? "Close menu" : "Open menu"}
         >
