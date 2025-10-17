@@ -73,9 +73,9 @@ const Navbar = () => {
 
                     {/* Desktop Actions */}
                     <div className='flex items-center justify-between max-sm:hidden'>
-                        <button className='hover:text-[#9e8121] transition-colors duration-300 cursor-pointer mx-4'>
+                        {/* <button className='hover:text-[#9e8121] transition-colors duration-300 cursor-pointer mx-4'>
                             LANGUAGE
-                        </button>
+                        </button> */}
                         <Link 
                             to="/contact" 
                             className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer  text-white hover:bg-[#ac8402] transition-colors duration-300'
