@@ -33,7 +33,7 @@ const Navbar = () => {
 
     const MenuToggleButton = ({ isOpen, onClick }) => (
         <button 
-            className='p-2 rounded-xs shadow-sm shadow-[#9e8121] hidden max-sm:block border-none bg-transparent hover:opacity-70 transition-opacity'
+            className='p-3 rounded-sm shadow-sm hidden max-sm:block border-none bg-transparent hover:opacity-70 transition-opacity'
             onClick={onClick}
             aria-label={isOpen ? "Close menu" : "Open menu"}
         >
@@ -47,7 +47,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='w-full flex flex-col justify-center items-center bg-gray-950 relative font-sans'>
+            <nav className='w-full flex flex-col justify-center items-center bg-[#f1eaea] relative font-sans'>
                 <div className='w-11/12 flex items-center justify-between'>
                     {/* Logo */}
                     <Link to="/" aria-label="Home">
@@ -64,7 +64,7 @@ const Navbar = () => {
                             <Link 
                                 to={link.link} 
                                 key={index}
-                                className='mx-4 text-lg text-white hover:text-[#9e8121] transition-colors duration-300'
+                                className='mx-4 text-lg text-black hover:text-[#9e8121] transition-colors duration-300'
                             >
                                 {link.name}
                             </Link>
@@ -73,12 +73,12 @@ const Navbar = () => {
 
                     {/* Desktop Actions */}
                     <div className='flex items-center justify-between max-sm:hidden'>
-                        <button className='hover:text-[#9e8121] transition-colors duration-300 cursor-pointer mx-4 text-white font-GaramondAntiqua'>
+                        <button className='hover:text-[#9e8121] transition-colors duration-300 cursor-pointer mx-4'>
                             LANGUAGE
                         </button>
                         <Link 
                             to="/contact" 
-                            className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer  text-white hover:bg-[#ac8402] transition-colors duration-300 font-GaramondAntiqua'
+                            className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer  text-white hover:bg-[#ac8402] transition-colors duration-300'
                         >
                             Reserver
                         </Link>
