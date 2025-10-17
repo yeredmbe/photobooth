@@ -222,7 +222,7 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center py-3 text-5xl transition-all duration-500 ease-in-out font-GaramondAntiqua text-[#271a02] ${
+    className={`absolute inset-0 text-center py-3 text-5xl max-sm:text-2xl transition-all duration-500 ease-in-out font-GaramondAntiqua text-[#271a02] ${
       toggle ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
