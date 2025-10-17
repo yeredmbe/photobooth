@@ -66,7 +66,7 @@ useEffect(() => {
 
   return (
     <>
-    <div className='w-full fade overflow-hidden'>
+    <div className='w-full fade'>
       <div className='w-full relative after:content-[""] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black/70 after:z-10 font-GaramondAntiqua'>
         <img src="https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-full h-96' />
         <div className='absolute left-1/2 top-1/2 w-full text-center -translate-x-1/2 -translate-y-1/2 z-20'>
@@ -793,7 +793,7 @@ useEffect(() => {
 </div>
 
       <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 max-sm:hidden'>
-        <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase'>Personnalisez votre photobooth</h1>
+        <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase font-GaramondAntiqua'>Personnalisez votre photobooth</h1>
         <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew'>Transformez l'expérience de votre événement grâce à nos visuels personnalisés !</h2>
 <div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
         {
@@ -832,7 +832,7 @@ useEffect(() => {
     <img src="./quote.png" alt="" className='size-20 absolute top-2 left-2 hidden max-sm:block -z-10 opacity-55' />
 
     {/* Fixed testimonials container */}
-    <div className='w-full min-h-60 overflow-visible relative max-sm:min-h-60'>
+    <div className='w-full min-h-60 overflow-hidden relative max-sm:min-h-60'>
       {testimonials.length > 0 && testimonials.map((item, index) => (
         <div 
           key={index} 

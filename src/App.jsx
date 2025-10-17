@@ -8,6 +8,7 @@ import Photobooth from "./pages/Photobooth";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Forfait from "./pages/Forfait";
+import Evenements from "./pages/Evenements"
 AOS.init();
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Route path="/" element={<Home />} />
     <Route path="/photobooth" element={<Photobooth />} />
     <Route path="/forfaits" element={<Forfait />} />
+    <Route path="/evenements" element={<Evenements/>} />
   </Routes>
   <Footer />
 </Router>
