@@ -78,7 +78,7 @@ const Navbar = () => {
                         </button>
                         <Link 
                             to="/contact" 
-                            className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer font-GaramondAntiqua text-white hover:bg-[#ac8402] transition-colors duration-300'
+                            className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer  text-white hover:bg-[#ac8402] transition-colors duration-300'
                         >
                             Reserver
                         </Link>
