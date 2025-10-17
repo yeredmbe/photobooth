@@ -317,7 +317,7 @@ const Evenements = () => {
               <p className='italic text-lg max-sm:text-base leading-relaxed px-4 text-justify max-sm:text-center'>
                 "{item.text}"
               </p>
-              <p className='font-semibold mt-4'>{item.author}</p>
+       
             </div>
           ))}
         </div>
