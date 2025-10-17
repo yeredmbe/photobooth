@@ -63,7 +63,7 @@ const Photobooth = () => {
       </div>
 
        <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
-        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photoboothh</p>
+        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
         <div className='w-10/12 max-sm:w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl mx-8 max-sm:mx-3 text-center max-sm:px-3 max-sm:text-center max-sm:text-4xl'>Photobooth Miroir Carré
@@ -222,7 +222,7 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center py-3 text-5xl max-sm:text-2xl transition-all duration-500 ease-in-out font-GaramondAntiqua text-[#271a02] ${
+    className={`absolute inset-0 text-center py-3 text-2xl transition-all duration-500 ease-in-out font-Sans-Font text-[#271a02] ${
       toggle ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
@@ -231,18 +231,18 @@ const Photobooth = () => {
   
   {/* Deuxième texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl max-sm:text-2xl py-3 transition-all duration-500 ease-in-out ${
       toggle ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+    Parfait Pour Les Mariages - Evernement Corporatifs - Fêtes Privées
   </p>
 </div>
 </div>
 
  <div className='bg-[#ad933b]/40 w-full '>
        <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
-        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photoboothh</p>
+        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
         <div className='w-10/12 max-sm:w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl mx-8 max-sm:mx-3 text-center max-sm:px-3 max-sm:text-center max-sm:text-4xl'>Photobooth Miroir Rond
@@ -276,11 +276,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle1 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Look Interactif
   </p>
   
   {/* Deuxième texte */}
@@ -307,11 +307,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle2 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Photo De Haute Qualité
   </p>
   
   {/* Deuxième texte */}
@@ -338,11 +338,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle3 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Elegance Epuree
   </p>
   
   {/* Deuxième texte */}
@@ -369,11 +369,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out  ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out  ${
       toggle4 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Magie Interactive
   </p>
   
   {/* Deuxième texte */}
@@ -405,16 +405,16 @@ const Photobooth = () => {
       toggle ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+   Parfait Pour Les Evernement & Galas
   </p>
   
   {/* Deuxième texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl max-sm:text-2xl py-3 transition-all duration-500 ease-in-out  ${
       toggle ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+   Parfait Pour Les Evernement & Galas
   </p>
 </div>
 </div>
@@ -422,7 +422,7 @@ const Photobooth = () => {
 </div>
 
        <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
-        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photoboothh</p>
+        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
         <div className='w-10/12 max-sm:w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl mx-8 max-sm:mx-3 text-center max-sm:px-3 max-sm:text-center max-sm:text-4xl'>Vidéo Booth 360
@@ -456,11 +456,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle1 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+   Filmez-En 360 Degres
   </p>
   
   {/* Deuxième texte */}
@@ -487,11 +487,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle2 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Souvenir Dynamique
   </p>
   
   {/* Deuxième texte */}
@@ -518,11 +518,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle3 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Partage Instantané
   </p>
   
   {/* Deuxième texte */}
@@ -549,11 +549,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out  ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out  ${
       toggle4 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Option Sur Mesure
   </p>
   
   {/* Deuxième texte */}
@@ -581,27 +581,27 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center  text-2xl py-3 transition-all duration-500 ease-in-out font-Sans-Font text-[#271a02] ${
+    className={`absolute inset-0 text-center  text-2xl py-3 transition-all duration-500 ease-in-out font-Sans-Font  text-[#271a02] ${
       toggle ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+   Parfait Pour Les Soirées Et Les Evénements Dynamique
   </p>
   
   {/* Deuxième texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl max-sm:text-2xl py-3 transition-all duration-500 ease-in-out  ${
       toggle ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+    Parfait Pour Les Soirées Et Les Evénements Dynamique
   </p>
 </div>
 </div>
 
 <div className='bg-[#ad933b]/40 w-full '>
        <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
-        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photoboothh</p>
+        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
         <div className='w-10/12 max-sm:w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl mx-8 max-sm:mx-3 text-center max-sm:px-3 max-sm:text-center max-sm:text-4xl'>Le Selfie PAD
@@ -635,11 +635,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle1 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Flexible & Amusant
   </p>
   
   {/* Deuxième texte */}
@@ -666,11 +666,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle2 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Polyvalent
   </p>
   
   {/* Deuxième texte */}
@@ -697,11 +697,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out ${
       toggle3 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+   Magie Au Bout Des Doigts
   </p>
   
   {/* Deuxième texte */}
@@ -728,11 +728,11 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out  ${
+    className={`absolute inset-0 text-center text-black text-5xl py-3 transition-all duration-500 ease-in-out  ${
       toggle4 ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Options Sur Mesure
   </p>
   
   {/* Deuxième texte */}
@@ -760,20 +760,20 @@ const Photobooth = () => {
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center  text-2xl py-3 transition-all duration-500 ease-in-out font-Sans-Font text-[#271a02] ${
+    className={`absolute inset-0 text-center  text-2xl py-3 transition-all duration-500 ease-in-out  text-[#271a02] font-Sans-Font ${
       toggle ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
-    Survolez-moi !
+    Parfait Pour Les Evénements En Plein Air - Les Rassemblements Prives Et Plus Encore
   </p>
   
   {/* Deuxième texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-2xl py-3 transition-all duration-500 ease-in-out ${
+    className={`absolute inset-0 text-center text-black text-5xl max-sm:text-2xl py-3 transition-all duration-500 ease-in-out  ${
       toggle ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+    Parfait Pour Les Evénements En Plein Air - Les Rassemblements Prives Et Plus Encore
   </p>
 </div>
 </div>
