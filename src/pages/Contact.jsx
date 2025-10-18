@@ -34,7 +34,7 @@ const Contact = () => {
   ];
 
   return (
-    <div className='w-full fade'>
+    <div className='w-full fade overflow-hidden'>
 
          <div className='w-full relative after:content-[""] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black/70 after:z-10 font-GaramondAntiqua'>
            <img 
