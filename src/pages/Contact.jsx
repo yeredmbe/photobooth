@@ -115,8 +115,36 @@ const Contact = () => {
       </div>
       </div>
 
+<div className='bg-gray-950 flex items-center justify-evenly w-full p-4 max-sm:flex-col max-sm:items-center max-sm:justify-center'>
+  <div>
+    <img src="https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" />
+  </div>
+  <div className='flex flex-col items-center justify-between w-1/2 max-sm:w-full'>
+    <img src='./elikia-text.png' alt='logo-text' className='w-80 my-4' />
+    <div className='flex items-center justify-between w-full max-sm:flex-col max-sm:items-center max-sm:justify-center'>
+     <div className='flex flex-col max-sm justify-center items-center'>
+        <h1 className='text-white text-5xl  font-GaramondAntiqua my-2'>Nous joindre</h1>
+          <a href='tel:683034005' className='flex items-center my-2'><img src='./telephone.png' className='size-10 max-sm:size-6' /><p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>+123456789</p> </a>
+            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./mail.png' className='size-10 max-sm:size-6' /> <p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>example66@gmail.com</p> </a>
+      </div>
+    
+      <div className='flex flex-col max-sm justify-center items-center'>
+        <h1 className='text-white text-5xl  font-GaramondAntiqua my-2'>Nos horaires</h1>
+          <a href='tel:683034005' className='flex items-center my-2'><img src='./calendar.png' className='size-10 max-sm:size-6' /><p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>Lundi - Vendredi</p> </a>
+            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./time.png' className='size-10 max-sm:size-6' /> <p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>9:00 AM - 9:00 PM</p> </a>
+      </div>
 
- <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
+    </div>
+     <p className='text-[#7a6d55] text-3xl my-2 font-AdobeHebrew-italic'>Suivez-nous sur les réseaux sociaux !</p>
+      <div className='flex items-center justify-between max-sm:justify-around max-sm:w-8/12 max-sm:px-2 '>
+        <a href='' className='max-sm:my-3 flex items-center justify-center'><img src="./google.png" alt="" className='size-10 max-sm:size-6 mr-1' /> <p className='max-sm:hidden'> GOOGLE</p></a>
+        <a href='' className='max-sm:my-3 flex items-center justify-center mx-8'><img src="./instagram.png" alt="" className='size-10 max-sm:size-6 mr-1 ' /> <p className='max-sm:hidden'>INSTAGRAM</p> </a>
+        <a href='' className='max-sm:my-3 flex items-center justify-center'><img src="./social.png" alt="" className='size-10 max-sm:size-6 mr-1' /> <p className='max-sm:hidden'>FACEBOOK</p></a>
+       </div>
+  </div>
+</div>
+
+ <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24 max-sm:hidden'>
       <img 
         src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" 
         alt="Testimonials background" 
