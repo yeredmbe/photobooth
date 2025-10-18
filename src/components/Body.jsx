@@ -48,14 +48,26 @@ const Body = () => {
     <>
       <div className='w-full flex flex-col items-center justify-center font-GaramondAntiqua'>
         <div className='flex w-11/12 my-12 items-center justify-between max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-        <p className='text-6xl w-1/2 max-sm:hidden mr-7'>Vous voulez que votre prochain événement se démarque ?</p>
+        <p className='text-6xl w-1/2 max-sm:hidden mr-7'  data-aos="slide-right"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Vous voulez que votre prochain événement se démarque ?</p>
         <div className=' w-1/2  max-sm:w-11/12 max-sm:py-4' >
-            <p className='text-[#9e8121]/50 text-3xl mb-1 max-sm:text-4xl max-sm:text-center max-sm:my-6 uppercase'>Nous avons le Photobooth qu'il vous faut.</p>
-            <p className='text-2xl max-sm:text-center max-sm:text-lg text-black/45'>En choisissant Elikia Events pour votre prochain service de location de Photobooth, vous ajouterez une touche mémorable à votre événement !</p>
+            <p className='text-[#9e8121]/50 text-3xl mb-1 max-sm:text-4xl max-sm:text-center max-sm:my-6 uppercase'
+             data-aos="slide-up"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Nous avons le Photobooth qu'il vous faut.</p>
+            <p className='text-2xl max-sm:text-center max-sm:text-lg text-black/45'
+             data-aos="slide-up"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">En choisissant Elikia Events pour votre prochain service de location de Photobooth, vous ajouterez une touche mémorable à votre événement !</p>
         </div>
         </div>
         <div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-            <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full' />
+            <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full'  data-aos="slide-right"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" />
             <div className='w-1/2 py-14 max-sm:py-3 bg-[#9e8121]/30 grid grid-cols-2 gap-4 p-4 max-sm:w-full max-sm:grid-cols-1 max-sm:my-4'>
                 <div className='justify-center items-center flex flex-col ' >
                     <img src='./emoji.png' alt='smiley'  className='size-16'/>
@@ -83,10 +95,15 @@ const Body = () => {
 
       <div className='w-full flex flex-col items-center justify-center my-8 py-8'>
         <p className='text-[#9e8121]/50 text-xl max-sm:hidden my-2'>NOS SÉLECTIONS</p>
-        <p className='max-sm:text-6xl text-6xl max-sm:my-2'>Nos photobooths</p>
+        <p className='max-sm:text-6xl text-6xl max-sm:my-2'  data-aos="slide-up"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Nos photobooths</p>
         <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
-           <p className='text-3xl max-sm:px-3 max-sm:text-center max-sm:text-2xl text-black/75'>Consultez nos différentes options de location.</p>
+           <p className='text-3xl max-sm:px-3 max-sm:text-center max-sm:text-2xl text-black/75' data-aos="slide-up"
+    data-aos-delay="30"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Consultez nos différentes options de location.</p>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
         </div>
          <button className="mt-6 mx-3 cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-xl font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">EN APPRENDRE D'AVANTAGE</button>
@@ -98,6 +115,10 @@ const Body = () => {
             <div 
             key={index} 
             className={`w-full h-full relative` }
+            data-aos="slide-up"
+    data-aos-delay={index * 10}
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
           >
             <img src={image.img} alt="" className='w-full hover:translate-y-[-10px] transition-transform duration-500 ease-in-out' />
             <div className='absolute bottom-0 left-0 right-0 bg-[#ad933b]  text-[#271a02] text-center p-4 text-4xl max-sm:text-2xl'>{image.title}</div>
@@ -122,8 +143,16 @@ const Body = () => {
 
       <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 max-sm:hidden'>
         <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase'>Personnalisez votre photobooth</h1>
-        <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew'>Transformez l'expérience de votre événement grâce à nos visuels personnalisés !</h2>
-<div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
+        <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew' 
+        data-aos="slide-up"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Transformez l'expérience de votre événement grâce à nos visuels personnalisés !</h2>
+
+<div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'
+data-aos="slide-up"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">
         {
           data1.length > 0 && data1.map((item, index) => (
             <div 
@@ -142,13 +171,25 @@ const Body = () => {
       <div className='w-full flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 my-12 max-sm:py-0 py-12 bg-[#9e8121]/40 px-24'>
       <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full' />
       <div className='w-1/2 ml-16 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02]'>
-        <h1 className='text-4xl my-5 font-GaramondAntiqua'>Pourquoi choisir Elikia Events?</h1>
+        <h1 className='text-4xl my-5 font-GaramondAntiqua'
+        data-aos="slide-up"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Pourquoi choisir Elikia Events?</h1>
 
-        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg'>Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.</p>
+        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.</p>
 
-        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg'>Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth.</p>
+        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
+    data-aos-delay="100"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth.</p>
 
-        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg'>Quel que soit l’événement que vous organisez, un mariage, une fête d’anniversaire ou une fête d’entreprise, nous avons tout ce qu’il vous faut !</p>
+        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
+    data-aos-delay="150"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Quel que soit l’événement que vous organisez, un mariage, une fête d’anniversaire ou une fête d’entreprise, nous avons tout ce qu’il vous faut !</p>
 
           <button className="mt-6  cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">DECOUVRIR NOS SERVICES</button>
       </div>
@@ -159,10 +200,15 @@ const Body = () => {
         <p className='text-white text-2xl my-4'>Demande de réservation</p>
         <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
-           <p className='text-5xl text-center max-sm:px-3 max-sm:text-center max-sm:text-3xl text-[#271a02]'>Capturez les sourires. Créez des souvenirs.</p>
+           <p className='text-5xl text-center max-sm:px-3 max-sm:text-center max-sm:text-3xl text-[#271a02]' data-aos="slide-up"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Capturez les sourires. Créez des souvenirs.</p>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
         </div>
-        <p className='w-2/5 text-center my-4 max-sm:w-full max-sm:px-4 font-Sans-Font max-sm:text-lg text-[#271a02]'>Créez des souvenirs inoubliables grâce à nos solutions de photobooth à la pointe de la technologie ! Qu'il s'agisse d'une réunion de famille, d'une fête d'anniversaire ou d'un gala d'entreprise, nos cabines photo ajoutent la touche parfaite d'excitation. Réservez votre créneau dès aujourd'hui et laissez les moments parfaits défiler !</p>
+        <p className='w-2/5 text-center my-4 max-sm:w-full max-sm:px-4 font-Sans-Font max-sm:text-lg text-[#271a02]' data-aos="slide-up"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Créez des souvenirs inoubliables grâce à nos solutions de photobooth à la pointe de la technologie ! Qu'il s'agisse d'une réunion de famille, d'une fête d'anniversaire ou d'un gala d'entreprise, nos cabines photo ajoutent la touche parfaite d'excitation. Réservez votre créneau dès aujourd'hui et laissez les moments parfaits défiler !</p>
          <button className="mt-6 mx-3 cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">RESERVEZ VOTRE PHOTOBOOTH</button>
       </div>
       </div>
