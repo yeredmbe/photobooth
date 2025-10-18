@@ -151,9 +151,7 @@ const Contact = () => {
           ))}
         </div>
 
-        <button className="mt-6 cursor-pointer px-6 py-3 bg-[#000] border border-[#000] text-white text-lg font-medium hover:text-black hover:bg-white transition duration-500 hover:border-black ease-in-out max-sm:text-base max-sm:px-4 max-sm:py-2">
-          DECOUVRIR NOS SERVICES
-        </button>
+  
       </div>
     </div>
        </div>

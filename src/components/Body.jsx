@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Body = () => {
    const images = [
@@ -106,7 +107,7 @@ const Body = () => {
     data-aos-easing="ease-in-out">Consultez nos différentes options de location.</p>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
         </div>
-         <button className="mt-6 mx-3 cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-xl font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">EN APPRENDRE D'AVANTAGE</button>
+         <Link to={"/photobooth"} className="mt-6 mx-3 cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-xl font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">EN APPRENDRE D'AVANTAGE</Link>
       </div>
 
       <div className='w-11/12 max-sm:w-full  grid grid-cols-2 max-sm:flex max-sm:flex-col gap-6 p-6  max-sm:px-1 items-center justify-center'>
@@ -191,7 +192,7 @@ data-aos="slide-up"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Quel que soit l’événement que vous organisez, un mariage, une fête d’anniversaire ou une fête d’entreprise, nous avons tout ce qu’il vous faut !</p>
 
-          <button className="mt-6  cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">DECOUVRIR NOS SERVICES</button>
+          <Link to="/evenements" className="mt-6  cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">DECOUVRIR NOS SERVICES</Link>
       </div>
       </div>
 
@@ -209,7 +210,7 @@ data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Créez des souvenirs inoubliables grâce à nos solutions de photobooth à la pointe de la technologie ! Qu'il s'agisse d'une réunion de famille, d'une fête d'anniversaire ou d'un gala d'entreprise, nos cabines photo ajoutent la touche parfaite d'excitation. Réservez votre créneau dès aujourd'hui et laissez les moments parfaits défiler !</p>
-         <button className="mt-6 mx-3 cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">RESERVEZ VOTRE PHOTOBOOTH</button>
+         <Link to="/contact" className="mt-6 mx-3 cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">RESERVEZ VOTRE PHOTOBOOTH</Link>
       </div>
       </div>
      </div>
