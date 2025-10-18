@@ -79,12 +79,11 @@ const Evenements = () => {
       <div className='w-11/12 flex items-center justify-evenly max-sm:flex-col max-sm:items-center max-sm:justify-center text-[#271a02]'>
         <div className='p-3 w-1/2 max-sm:w-full'>
           <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
-          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Mariages</h1>
           <div>
             <p className='my-1 font-Sans-Font max-sm:text-xl text-xl' data-aos="slide-up"
-          data-aos-delay="100"
+          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
              Faites ressortir le romantisme de votre journée spéciale grâce à nos magnifiques
@@ -132,12 +131,11 @@ const Evenements = () => {
       <div className='w-11/12 flex items-center justify-evenly max-sm:flex-col max-sm:items-center max-sm:justify-center'>
         <div className='p-3 w-1/2 max-sm:w-full'>
           <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
-          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Fêtes d'anniversaire</h1>
           <div>
             <p className='my-1 font-Sans-Font max-sm:text-xl text-xl' data-aos="slide-up"
-          data-aos-delay="100"
+          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
              Transformez votre fête d'anniversaire en une fiesta remplie de photos grâce à nos cabines photo
@@ -184,12 +182,11 @@ const Evenements = () => {
       <div className='w-11/12 flex items-center justify-evenly max-sm:flex-col max-sm:items-center max-sm:justify-center text-[#271a02]'>
         <div className='p-3 w-1/2 max-sm:w-full'>
           <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
-          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Événements d'entreprise</h1>
           <div>
             <p className='my-1 font-Sans-Font max-sm:text-xl text-xl' data-aos="slide-up"
-          data-aos-delay="100"
+          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
              Donnez de la vie à vos fêtes et événements d'entreprise grâce à nos cabines photo dynamiques.
@@ -236,12 +233,11 @@ const Evenements = () => {
       <div className='w-11/12 flex items-center justify-evenly max-sm:flex-col max-sm:items-center max-sm:justify-center'>
         <div className='p-3 w-1/2 max-sm:w-full'>
           <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
-          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Événements Privés</h1>
           <div>
             <p className='my-1 font-Sans-Font max-sm:text-xl text-xl' data-aos="slide-up"
-          data-aos-delay="100"
+          data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
             Célébrez n'importe quelle occasion grâce à nos cabines photographiques polyvalentes.
