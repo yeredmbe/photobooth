@@ -129,6 +129,10 @@ const Navbar = () => {
                         <Link 
                             to={link.link} 
                             key={index}
+                            data-aos="slide-up"
+    data-aos-delay={index * 10}
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
                             className='my-4 text-xl font-semibold text-white hover:text-[#9e8121] transition-colors duration-300 py-2'
                             onClick={() => setIsMenuOpen(false)}
                         >
