@@ -64,7 +64,7 @@ const Body = () => {
     data-aos-easing="ease-in-out">Immortalisez les moments les plus drôles et les plus émouvants de votre vie avec notre Photobooth ! Notre équipe de professionnels vous offre une expérience unique et amusante pour capturer les meilleurs moments de votre événement.</p>
         </div>
         </div>
-        <div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
+        <div className='w-full  max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
             <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full'  data-aos="slide-right"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -72,23 +72,25 @@ const Body = () => {
             <div className='w-1/2 py-14 max-sm:py-3 bg-[#9e8121]/30 grid grid-cols-2 gap-4 p-4 max-sm:w-full max-sm:grid-cols-1 max-sm:my-4'>
                 <div className='justify-center items-center flex flex-col ' >
                     <img src='./emoji.png' alt='smiley'  className='size-16'/>
-                    <p className='text-4xl my-2'>Say Cheese !</p>
-                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'>Capturez et imprimez des moments en un clin d'œil pour une joie instantanée.</p>
+                    <p className='text-4xl my-1'>Say Cheese !</p>
+                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'>Immortalisez vos plus beaux sourires et repartez avec des souvenirs imprimés en un clin d’œil.</p>
                 </div>
                 <div className='justify-center items-center flex flex-col ' >
                   <img src='./glasses.png' alt='smiley'  className='size-16'/>
-                    <p className='text-4xl my-2'>À votre style</p>
-                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'>Personnalisez les accessoires, les toiles de fond et vos photos en fonction de votre événement.</p>
+                    <p className='text-4xl my-1'>À votre style</p>
+                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'>À votre image, tout en élégance
+Avec Elikiabooth, chaque détail reflète votre histoire d’amour.</p>
                 </div>
                 <div className='justify-center items-center flex flex-col' >
                   <img src='./share.png' alt='smiley'  className='size-16'/>
-                    <p className='text-4xl my-2'>Partage rapide</p>
-                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'>Partagez sans effort vos moments préférés sur les médias sociaux.</p>
+                    <p className='text-4xl my-1'>Partage rapide</p>
+                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'> Partage instantané
+Avec Elikiabooth, vos plus beaux souvenirs se partagent en un clic !</p>
                 </div>
                 <div className='justify-center items-center flex flex-col' >
                    <img src='./user.png' alt='smiley'  className='size-16'/>
-                    <p className='text-4xl my-2'>Facile à utiliser</p>
-                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'>Profitez d'une expérience photo simple, automatisée et adaptée à tous les âges.</p>
+                    <p className='text-4xl my-1'>Simple et intuitif</p>
+                    <p className='text-md max-sm:text-lg font-Sans-Font text-center text-black/65'>Notre borne photo est entièrement automatisée et pensée pour tous les âges — il suffit d’un sourire pour capturer la magie du moment.</p>
                 </div>
             </div>
         </div>
@@ -170,12 +172,12 @@ data-aos="slide-up"
       </div>
 
       <div className='w-full flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 my-12 max-sm:py-0 py-12 bg-[#9e8121]/40 px-24'>
-      <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full' />
+      <img src="photo_3_2025-10-18_13-20-11.jpg" alt="" className='w-1/2 max-sm:w-full' />
       <div className='w-1/2 ml-16 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02]'>
         <h1 className='text-4xl my-5 font-GaramondAntiqua'
         data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Pourquoi choisir Elikia Events?</h1>
+    data-aos-easing="ease-in-out">Pourquoi choisir Elikiabooth?</h1>
 
         <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
     data-aos-delay="50"
