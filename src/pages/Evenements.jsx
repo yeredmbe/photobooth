@@ -55,7 +55,7 @@ const Evenements = () => {
     <div className='w-full '>
       <div className='w-full relative after:content-[""] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black/70 after:z-10 font-GaramondAntiqua'>
         <img 
-          src="https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" 
+          src="photo_2_2025-10-18_13-20-11.jpg" 
           alt="Photobooth event" 
           className='w-full h-96 object-cover'
         />
@@ -117,11 +117,11 @@ const Evenements = () => {
             </Link>
           </div>
         </div>
-        <div className='h-1/2 max-sm:w-full'>
+        <div className='max-sm:w-full w-1/2'>
           <img 
-            src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' 
+            src='photo_19_2025-10-18_13-20-12.jpg' 
             alt="Photobooth miroir magique"
-            className='w-full h-auto'
+            className='w-full  h-2/3'
           />
         </div>
       </div>
@@ -170,7 +170,7 @@ const Evenements = () => {
         </div>
         <div className='h-1/2 max-sm:w-full'>
           <img 
-            src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' 
+            src='photo_4_2025-10-21_00-31-23.jpg' 
             alt="Photobooth miroir magique"
             className='w-full h-auto'
           />
@@ -219,9 +219,9 @@ const Evenements = () => {
             </Link>
           </div>
         </div>
-        <div className='h-1/2 max-sm:w-full'>
+        <div className=' w-1/2 max-sm:w-full'>
           <img 
-            src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' 
+            src='photo_9_2025-10-18_13-20-12.jpg' 
             alt="Photobooth miroir magique"
             className='w-full h-auto'
           />
@@ -270,11 +270,11 @@ const Evenements = () => {
             </Link>
           </div>
         </div>
-        <div className='h-1/2 max-sm:w-full'>
+        <div className=' max-sm:w-full w-1/2'>
           <img 
-            src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' 
+            src='photo_13_2025-10-18_13-20-12.jpg' 
             alt="Photobooth miroir magique"
-            className='w-full h-auto'
+            className='w-full'
           />
         </div>
       </div>

@@ -38,7 +38,7 @@ const Contact = () => {
 
          <div className='w-full relative after:content-[""] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black/70 after:z-10 font-GaramondAntiqua'>
            <img 
-             src="https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" 
+             src="photo_5_2025-10-18_13-20-11.jpg" 
              alt="Photobooth event" 
              className='w-full h-96 object-cover'
            />

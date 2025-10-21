@@ -219,7 +219,7 @@ setLoading(false);
       {/* Right side - Image */}
       <div className="flex-1 bg-black flex items-center justify-center max-sm:hidden">
         <img
-          src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=800"
+          src="photo_20_2025-10-18_13-20-12.jpg"
           alt="Event"
           className="object-cover w-full h-full"
         />
