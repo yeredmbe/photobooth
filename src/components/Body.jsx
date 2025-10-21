@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Body = () => {
    const images = [
   { img: "photo_1_2025-10-21_00-31-23.jpg",title:"Photobooth Miroir Carré"},
-    {img:"photo_1_2025-10-18_13-20-11.jpg",title:"Vidéo Booth 360"}
+    {img:"photobooth.jpg",title:"Vidéo Booth 360"}
   ];
 
   const data=[{
@@ -63,7 +63,7 @@ const Body = () => {
         </div>
         </div>
         <div className='w-full  max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-            <img src="photo_4_2025-10-21_00-31-23.jpg" alt="" className='w-1/2 max-sm:w-full'  data-aos="slide-right"
+            <img src="photo_3_2025-10-21_00-31-23.jpg" alt="" className='w-1/2 max-sm:w-full'  data-aos="slide-right"
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out" />
