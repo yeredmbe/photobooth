@@ -31,17 +31,17 @@ const Body = () => {
   const data1=[{
     icon:"./touch.png",
     title:"Touche Personnelle",
-    desc:"Ajoutez des graphiques personnalisés qui correspondent à votre thème pour vos célébrations - anniversaires, mariages et autres."
+    desc:"Apportez votre signature unique à chaque célébration grâce à des visuels et accessoires sur mesure qui subliment vos anniversaires, mariages et événements spéciaux."
   },
 {
     icon:"./beverage.png",
-    title:"Ambiance Festive",
-    desc:"Rehaussez votre événement avec des superpositions personnalisées, en apportant une touche unique aux photos et vidéos de vos invités."
+    title:"Fête inoubliable",
+    desc:"Apportez une touche unique à vos photos et vidéos avec des superpositions personnalisées qui font briller chaque moment de votre événement."
   },
 {
     icon:"./sharee.png",
-    title:"Boost Marketing",
-    desc:"Attirez l'attention lors d'événements marketing en incorporant des graphiques personnalisés qui mettent en valeur votre marque."
+    title:"Marketing impactant ",
+    desc:"Faites briller votre marque lors de vos événements grâce à des graphiques personnalisés qui captivent et marquent les esprits."
   }]
   return (
     <>
@@ -143,11 +143,11 @@ Avec Elikiabooth, vos plus beaux souvenirs se partagent en un clic !</p>
       </div>
 
       <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 max-sm:hidden'>
-        <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase'>Personnalisez votre photobooth</h1>
+        <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase'>Photobooth personnalisé</h1>
         <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew' 
         data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Transformez l'expérience de votre événement grâce à nos visuels personnalisés !</h2>
+    data-aos-easing="ease-in-out">TPersonnalisez votre photobooth avec des accessoires, fonds et visuels qui reflètent parfaitement le style de votre événement.</h2>
 
 <div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'
 data-aos="slide-up"
@@ -180,17 +180,17 @@ data-aos="slide-up"
         <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.</p>
+    data-aos-easing="ease-in-out">Nous ne sommes pas seulement un service de photobooth à Montréal — nous sommes vos partenaires pour créer des souvenirs mémorables.</p>
 
         <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
     data-aos-delay="100"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth.</p>
+    data-aos-easing="ease-in-out">Grâce à notre passion pour les célébrations et notre souci de l’excellence, nous transformons chaque événement en une expérience unique et inoubliable.</p>
 
         <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
     data-aos-delay="150"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Quel que soit l’événement que vous organisez, un mariage, une fête d’anniversaire ou une fête d’entreprise, nous avons tout ce qu’il vous faut !</p>
+    data-aos-easing="ease-in-out">Mariage, anniversaire ou événement corporatif, Elikiabooth a tout ce qu’il vous faut pour capturer chaque sourire et chaque moment de joie.</p>
 
           <Link to="/evenements" className="mt-6  cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">DECOUVRIR NOS SERVICES</Link>
       </div>
@@ -203,13 +203,13 @@ data-aos="slide-up"
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl text-center max-sm:px-3 max-sm:text-center max-sm:text-3xl text-[#271a02]' data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Capturez les sourires. Créez des souvenirs.</p>
+    data-aos-easing="ease-in-out">Souriez, immortalisez, revivez chaque instant.</p>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
         </div>
         <p className='w-2/5 text-center my-4 max-sm:w-full max-sm:px-4 font-Sans-Font max-sm:text-lg text-[#271a02]' data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Créez des souvenirs inoubliables grâce à nos solutions de photobooth à la pointe de la technologie ! Qu'il s'agisse d'une réunion de famille, d'une fête d'anniversaire ou d'un gala d'entreprise, nos cabines photo ajoutent la touche parfaite d'excitation. Réservez votre créneau dès aujourd'hui et laissez les moments parfaits défiler !</p>
+    data-aos-easing="ease-in-out">Immortalisez chaque instant avec nos photobooths modernes et personnalisés ! Que ce soit un mariage, un anniversaire ou un événement corporatif, nos cabines ajoutent fun, style et émotions à vos célébrations. Réservez dès maintenant et transformez chaque sourire en un souvenir mémorable.</p>
          <Link to="/contact" className="mt-6 mx-3 cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">RESERVEZ VOTRE PHOTOBOOTH</Link>
       </div>
       </div>
