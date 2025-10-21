@@ -471,7 +471,7 @@ const autres=[{
 
 </div>
 
-     <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 max-sm:hidden'>
+     <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12'>
         <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2 py-8'>
                <div className='w-10/12 max-sm:w-full flex flex-col items-center justify-center '>
                <p className=' uppercase font-GaramondAntiqua text-2xl my-4 text-[#9e8121]'>Location de photobooth</p>
@@ -498,7 +498,7 @@ data-aos="slide-up"
          autres.length > 0 && autres.map((item, index) => (
             <div 
             key={index}
-            className='w-full flex bg-[#ad933b]/80 flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-8 px-2 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
+            className='w-full flex bg-[#ad933b]/80 flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-6 px-2 max-sm:py-4 max-sm:px-2 text-black'>
               <p className='text-3xl font-GaramondAntiqua'>{item.title}</p>
               <p className='text-lg text-white'>Ajoutez a votre forfait {item.desc}</p>
               </div>))
