@@ -45,11 +45,11 @@ const Carousel = () => {
           </div>
         ))}
         <div className="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center z-30 font-GaramondAntiqua">
-            <h1 className="text-white my-2 max-sm:my-1 text-center text-7xl max-sm:text-6xl uppercase font-bold "  data-aos="slide-up"
+            <h1 className="text-white my-2 max-sm:my-1 text-center text-7xl max-sm:text-5xl uppercase font-bold "  data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Vous rêvez et nous faisons de votre rêve une réalité !</h1> 
-               <h3 className="text-white text-center text-[calc(1.5rem+1vw)] md:text-3xl  font-GaramondAntiqua max-sm:mx-1"  data-aos="slide-up"
+               <h3 className="text-white text-center text-[calc(1.5rem+1vw)] md:text-2xl  font-GaramondAntiqua max-sm:mx-1"  data-aos="slide-up"
     data-aos-delay="100"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Bienvenue dans notre monde de souvenirs inoubliables. <span className='text-[#9e8121] font-semibold font-Alexandra-One text-6xl max-sm:text-5xl tracking-widest'>Elikiabooth</span> est votre référence en location de Photobooth à Montréal et environ.</h3>
