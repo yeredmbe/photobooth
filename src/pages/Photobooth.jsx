@@ -41,23 +41,47 @@ useEffect(() => {
   {text:" Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth. ", author:"- John D."},
   {text:" Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth. ", author:"- Sarah L."},]
 
- const data1=[{
+const data1=[{
     icon:"./touch.png",
     title:"Touche Personnelle",
-    desc:"Ajoutez des graphiques personnalisés qui correspondent à votre thème pour vos célébrations - anniversaires, mariages et autres."
+    desc:"Apportez votre signature unique à chaque célébration grâce à des visuels et accessoires sur mesure qui subliment vos anniversaires, mariages et événements spéciaux."
   },
 {
     icon:"./beverage.png",
-    title:"Ambiance Festive",
-    desc:"Rehaussez votre événement avec des superpositions personnalisées, en apportant une touche unique aux photos et vidéos de vos invités."
+    title:"Fête inoubliable",
+    desc:"Apportez une touche unique à vos photos et vidéos avec des superpositions personnalisées qui font briller chaque moment de votre événement."
   },
 {
     icon:"./sharee.png",
-    title:"Boost Marketing",
-    desc:"Attirez l'attention lors d'événements marketing en incorporant des graphiques personnalisés qui mettent en valeur votre marque."
+    title:"Marketing impactant ",
+    desc:"Faites briller votre marque lors de vos événements grâce à des graphiques personnalisés qui captivent et marquent les esprits."
   }]
 
-
+const autres=[{
+  title:"Accessoires amusants",
+  desc:"100$"
+},{
+  title:"Choix des modeles de photos",
+  desc:"100$"
+},{
+  title:"Choix de la toile de fond",
+  desc:"100$"
+  },{
+    title:"Tapis rouge",
+    desc:"100$"
+  },{
+    title:"Eclairage avec trepied",
+    desc:"100$"
+  },{
+    title:"Cadrages photo personnalises pour votre evenement",
+    desc:"100$"
+},{
+    title:"Transport et installation",
+    desc:"100$"
+},{
+    title:"Technicien-hote sympathique sur place",
+    desc:"100$"
+}]
 //   const text=[ {title:"Survolez-moi !", desc:"Contactez-nous pour plus d'informations!"},
 //     {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
 //     {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
@@ -447,6 +471,41 @@ useEffect(() => {
 
 </div>
 
+     <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 max-sm:hidden'>
+        <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2 py-8'>
+               <div className='w-10/12 max-sm:w-full flex flex-col items-center justify-center '>
+               <p className=' uppercase font-GaramondAntiqua text-2xl my-4 text-[#9e8121]'>Location de photobooth</p>
+               <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
+                  <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+                  <p className='text-4xl text-center max-sm:px-3 max-sm:text-center max-sm:text-3xl text-[#271a02]' data-aos="slide-up"
+           data-aos-duration="1000"
+           data-aos-easing="ease-in-out">Options Supplémentaires</p>
+                  <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+               </div>
+               <p className='w-2/5 text-center my-4 max-sm:w-full max-sm:px-4 font-Sans-Font max-sm:text-lg text-[#271a02]' data-aos="slide-up"
+           data-aos-delay="50"
+           data-aos-duration="1000"
+           data-aos-easing="ease-in-out">Nous proposons plusieurs options pour améliorer votre expérience.</p>
+             </div>
+             </div>
+
+<div className='w-full p-4 max-sm:p-1 grid grid-cols-3 max-sm:grid-cols-1 gap-4 items-center justify-center'
+data-aos="slide-up"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">
+        {
+         autres.length > 0 && autres.map((item, index) => (
+            <div 
+            key={index}
+            className='w-full flex bg-[#ad933b]/80 flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-8 px-2 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
+              <p className='text-3xl font-GaramondAntiqua'>{item.title}</p>
+              <p className='text-lg text-white'>Ajoutez a votre forfait {item.desc}</p>
+              </div>))
+        }
+        </div>
+      </div>
+
       <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 max-sm:hidden'>
         <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase font-GaramondAntiqua'>Personnalisez votre photobooth</h1>
         <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew' data-aos="slide-up"
@@ -464,7 +523,7 @@ data-aos-delay="200"
               <div className='size-24  rounded-full p-3  flex items-center  justify-center mx-auto'>
                  <img src={item.icon} className='size-16' />  
               </div>
-              <p className='text-4xl'>{item.title}</p>
+              <p className='text-4xl font-GaramondAntiqua'>{item.title}</p>
               <p className='text-lg'>{item.desc}</p>
               </div>))
         }
