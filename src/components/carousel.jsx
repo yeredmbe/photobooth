@@ -48,11 +48,11 @@ const Carousel = () => {
             <h1 className="text-white my-2 max-sm:my-1 text-center text-7xl max-sm:text-6xl uppercase font-bold "  data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Êtes-vous prêt à fêter avec style ?</h1> 
+    data-aos-easing="ease-in-out">Vous rêvez et nous faisons de votre rêve une réalité !</h1> 
                <h3 className="text-white text-center text-[calc(1.5rem+1vw)] md:text-3xl  font-GaramondAntiqua max-sm:mx-1"  data-aos="slide-up"
     data-aos-delay="100"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Bienvenue chez <span className='text-[#9e8121] font-semibold font-Alexandra-One text-6xl max-sm:text-5xl tracking-wider'>Elikia Events</span>, le meilleur service de location de Photobooth à Montréal.</h3>
+    data-aos-easing="ease-in-out">Bienvenue dans notre monde de souvenirs inoubliables. <span className='text-[#9e8121] font-semibold font-Alexandra-One text-6xl max-sm:text-5xl tracking-widest'>Elikiabooth</span> est votre référence en location de Photobooth à Montréal et environ.</h3>
                <div className='w-full max-sm:flex-col flex items-center justify-center'>
                  <Link to="/contact" className="mt-6 max-sm:w-2/3 w-[20%] mx-3 cursor-pointer px-6 py-3 bg-[#9e8121] border border-[#9e8121]  text-white font-medium  hover:bg-black/30 transition duration-500 hover:border-white ease-in-out text-2xl max-sm:text-lg text-center"> Réservez Maintenant </Link> 
                    <a href="tel:+15551234567" className="mt-6 max-sm:w-2/3 w-[20%] px-6 cursor-pointer text-center py-3 bg-black/30 border border-white text-white text-2xl max-sm:text-lg font-medium  hover:bg-white hover:text-black ease-in-out transition duration-500">Appelez  Nous</a>

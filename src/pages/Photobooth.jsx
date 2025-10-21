@@ -69,7 +69,7 @@ useEffect(() => {
     <>
     <div className='w-full fade'>
       <div className='w-full relative after:content-[""] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black/70 after:z-10 font-GaramondAntiqua'>
-        <img src="https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-full h-96'  />
+        <img src="photo_5_2025-10-21_00-31-23.jpg" alt="" className='w-full h-96'  />
         <div className='absolute left-1/2 top-1/2 w-full text-center -translate-x-1/2 -translate-y-1/2 z-20'>
         <h1 className='text-8xl text-white my-3 max-sm:text-5xl max-sm:mx-2 uppercase' data-aos="slide-up"
     data-aos-duration="1000"
@@ -855,7 +855,7 @@ data-aos-delay="200"
       </div>
 
    <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
-  <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full' />
+  <img src="photo_12_2025-10-18_13-20-12.jpg"  alt="" className='w-1/2 max-sm:w-full' />
   <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#9e8121]/40'>
     <h1 className='text-5xl my-2 font-GaramondAntiqua max-sm:text-3xl' data-aos="slide-right"
     data-aos-duration="1000"

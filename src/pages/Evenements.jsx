@@ -340,7 +340,7 @@ const Evenements = () => {
   const renderTestimonialsSection = () => (
     <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
       <img 
-        src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" 
+        src="photo_12_2025-10-18_13-20-12.jpg" 
         alt="Testimonials background" 
         className='w-1/2 max-sm:w-full object-cover'
       />
