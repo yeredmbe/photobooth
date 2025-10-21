@@ -24,7 +24,7 @@ const Navbar = () => {
     }, [isMenuOpen])
 
     const navLinks = [
-        { name: "Home", link: "/" },
+        { name: "Acceuil", link: "/" },
         { name: "Photobooths", link: "/photobooth" },
         { name: "Forfaits", link: "/forfaits" },
         { name: "Evénements", link: "/evenements" },

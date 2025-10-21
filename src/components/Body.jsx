@@ -3,31 +3,29 @@ import { Link } from 'react-router-dom';
 
 const Body = () => {
    const images = [
-  { img: "https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",title:"Photobooth Miroir Carré"},
-    {img:"https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",title:"Vidéo Booth 360"},
-    {img:"https://images.unsplash.com/photo-1617676480063-1f0b26a5e04d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",title:"Photobooth Miroir Rond"},
-    {img:"https://images.unsplash.com/photo-1643651576156-c062a5b8c324?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",title:"Le Selfie PAD"},
+  { img: "photo_1_2025-10-21_00-31-23.jpg",title:"Photobooth Miroir Carré"},
+    {img:"photo_1_2025-10-18_13-20-11.jpg",title:"Vidéo Booth 360"}
   ];
 
   const data=[{
     icon:"./church.png",
     title:"Mariage",
-    desc:"Immortalisez les moments joyeux de votre grand jour grâce à nos cabines photos de mariage."
+    desc:"Transformez chaque instant de votre grand jour en un souvenir inoubliable avec Elikiabooth."
   },
 {
     icon:"./handshake.png",
     title:"Corporatif",
-    desc:"Votre prochain événement corporatif aura son plaisir déchaîné avec nos cabines photo de fête !"
+    desc:"Ajoutez une touche de fun et de convivialité à votre événement d’entreprise avec Elikiabooth !"
   },
 {
     icon:"./cake.png",
     title:"Anniversaire",
-    desc:"Faites passer votre fête d'anniversaire à la vitesse supérieure grâce à nos cabines photo !"
+    desc:"Transformez chaque sourire en un souvenir inoubliable avec Elikiabooth."
   },
 {
     icon:"./graduate.png",
     title:"Graduation",
-    desc:"Le jour de la remise des diplômes a une touche de glamour grâce à nos solutions de photobooth sur mesure !"
+    desc:"Célébrez votre remise de diplôme avec style grâce aux cabines photo sur mesure d’Elikiabooth."
   }] 
 
   const data1=[{
@@ -65,7 +63,7 @@ const Body = () => {
         </div>
         </div>
         <div className='w-full  max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-            <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full'  data-aos="slide-right"
+            <img src="photo_4_2025-10-21_00-31-23.jpg" alt="" className='w-1/2 max-sm:w-full'  data-aos="slide-right"
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out" />
