@@ -53,15 +53,15 @@ const Body = () => {
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Vous voulez que votre prochain événement se démarque ?</p>
         <div className=' w-1/2  max-sm:w-11/12 max-sm:py-4' >
-            <p className='text-[#9e8121]/50 text-3xl mb-1 max-sm:text-4xl max-sm:text-center max-sm:my-6 uppercase'
+            <p className='text-[#9e8121]/50 text-3xl mb-1 max-sm:text-2xl max-sm:text-center max-sm:my-6 uppercase'
              data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Nous avons le Photobooth qu'il vous faut.</p>
+    data-aos-easing="ease-in-out">Si l’originalité vous préoccupe pour vos souvenirs inoubliables, notre Photobooth répond à ce besoin !</p>
             <p className='text-2xl max-sm:text-center max-sm:text-lg text-black/45'
              data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">En choisissant Elikia Events pour votre prochain service de location de Photobooth, vous ajouterez une touche mémorable à votre événement !</p>
+    data-aos-easing="ease-in-out">Immortalisez les moments les plus drôles et les plus émouvants de votre vie avec notre Photobooth ! Notre équipe de professionnels vous offre une expérience unique et amusante pour capturer les meilleurs moments de votre événement.</p>
         </div>
         </div>
         <div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'>
