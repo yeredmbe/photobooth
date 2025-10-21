@@ -93,8 +93,8 @@ useEffect(() => {
 
       <div className='w-full flex items-center justify-center max-sm:w-full max-sm:flex-col max-sm:items-center max-sm:justify-center mt-8 pt-8'>
         <div className='w-11/12 grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 max-sm:px-1'>
-            <img src="https://images.unsplash.com/photo-1617676480063-1f0b26a5e04d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="" className='shadows' />
-            <img src="https://images.unsplash.com/photo-1643651576156-c062a5b8c324?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="" className='max-sm:hidden shadows' />
+            <img src="photo_4_2025-10-18_13-20-11.jpg" alt="" className='shadows' />
+            <img src="photo_17_2025-10-18_13-20-12.jpg" alt="" className='max-sm:hidden shadows' />
         </div>
       </div>
 
@@ -277,8 +277,8 @@ useEffect(() => {
 
       <div className='w-full flex items-center justify-center max-sm:w-full max-sm:flex-col max-sm:items-center max-sm:justify-center mt-8 pt-8'>
         <div className='w-11/12 grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 max-sm:px-1'>
-            <img src="https://images.unsplash.com/photo-1617676480063-1f0b26a5e04d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="" className='shadows' />
-            <img src="https://images.unsplash.com/photo-1643651576156-c062a5b8c324?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="" className='max-sm:hidden shadows' />
+            <img src="photo_3_2025-10-18_13-20-11.jpg" alt="" className='shadows' />
+            <img src="photo_19_2025-10-18_13-20-12.jpg" alt="" className='max-sm:hidden shadows' />
         </div>
       </div>
 
