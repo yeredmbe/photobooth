@@ -73,7 +73,7 @@ const autres=[{
     title:"Eclairage avec trepied",
     desc:"100$"
   },{
-    title:"Cadrages photo personnalises pour votre evenement",
+    title:"Cadrages photo sur mesure",
     desc:"100$"
 },{
     title:"Transport et installation",
@@ -186,7 +186,7 @@ const autres=[{
       toggle2 ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+   Des images éclatantes et parfaitement nettes grâce à nos caméras haute définition et à un éclairage professionnel intégré.
   </p>
 </div>
 
@@ -339,7 +339,7 @@ const autres=[{
       toggle1 ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+    Des images éclatantes et parfaitement nettes grâce à nos caméras haute définition et à un éclairage professionnel intégré.
   </p>
 </div>
 
@@ -370,7 +370,7 @@ const autres=[{
       toggle2 ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+   Ne manquez jamais un instant et vivez chaque moment avec une expérience photo immersive.
   </p>
 </div>
 
@@ -401,7 +401,7 @@ const autres=[{
       toggle3? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+    Vos invités s’amusent avec un photobooth interactif, capturant des souvenirs sous tous les angles.
   </p>
 </div>
 
@@ -432,7 +432,7 @@ const autres=[{
       toggle4 ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Contactez-nous pour plus d'informations!
+    Vos moments capturés peuvent être partagés immédiatement avec vos proches en ligne.
   </p>
 </div>
 
@@ -464,7 +464,7 @@ const autres=[{
       toggle ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >
-    Parfait Pour Les Soirées Et Les Evénements Dynamique
+    Le Vidéo Booth 360 propose des cadres, filtres et graphismes personnalisés pour sublimer chaque moment selon vos envies.
   </p>
 </div>
 </div>

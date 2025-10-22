@@ -153,7 +153,7 @@ setLoading(false);
             <input
               type="text"
               name="address"
-              placeholder="Eg. TKC Yaounde, Cameroun"
+              placeholder="Eg. CANADA, 1234 STREET"
               value={formData.address}
               onChange={handleChange}
               className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
