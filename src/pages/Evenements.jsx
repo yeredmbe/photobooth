@@ -66,7 +66,7 @@ const Evenements = () => {
             Services événements
           </h1>
           <p className='text-3xl text-white max-sm:text-xl'>
-            Les services de location de photobooth de Fotobo pour élever l'expérience de votre prochain événement.
+            Les services de location de photobooth de Elikiabooth pour élever l'expérience de votre prochain événement.
           </p>
         </div>
       </div>
