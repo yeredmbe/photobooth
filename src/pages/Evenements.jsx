@@ -294,7 +294,7 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
           data-aos-delay={index * 10}
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"
-            className='w-full flex bg-[#ad933b]/80 mx-3 font-GaramondAntiqua flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-8 px-4 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
+            className='w-full flex bg-[#ad933b]/80 mx-3 font-GaramondAntiqua flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-all duration-500 ease-in-out justify-center text-center py-8 px-4 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
               <div className='size-24  rounded-full p-3  flex items-center  justify-center mx-auto'>
                  <img src={item.icon} className='size-16' />  
               </div>
