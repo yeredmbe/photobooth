@@ -406,31 +406,31 @@ const Forfait = () => {
       </div>
       </div>
 
-       <div className='w-full flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 mt-2 max-sm:py-0 py-12 bg-[#9e8121]/40 px-24'>
-      <img src="https://images.unsplash.com/photo-1727892349075-401c9df83995?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="" className='w-1/2 max-sm:w-full' />
-      <div className='w-1/2 ml-16 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02]'>
-        <h1 className='text-4xl my-5 font-GaramondAntiqua' data-aos="slide-up"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Pourquoi choisir Elikia Events?</h1>
-
-        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
-        data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Nous sommes plus que le meilleur service de location de Photobooth à Montréal – nous sommes vos partenaires pour créer et immortaliser des moments inoubliables.</p>
-
-        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
+        <div className='w-full flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 my-12 max-sm:py-0 py-12 bg-[#9e8121]/40 px-24'>
+           <img src="photo_3_2025-10-18_13-20-11.jpg" alt="" className='w-1/2 max-sm:w-full' />
+           <div className='w-1/2 ml-16 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02]'>
+             <h1 className='text-4xl my-5 font-GaramondAntiqua'
+             data-aos="slide-up"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out">Pourquoi choisir Elikiabooth?</h1>
+     
+             <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
+         data-aos-delay="50"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out">Nous ne sommes pas seulement un service de photobooth à Montréal — nous sommes vos partenaires pour créer des souvenirs mémorables.</p>
+     
+             <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
          data-aos-delay="100"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Avec notre passion pour les célébrations et notre engagement pour l’excellence, nous améliorons chaque événement avec notre expertise et notre approche unique des expériences Photobooth.</p>
-
-        <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out">Grâce à notre passion pour les célébrations et notre souci de l’excellence, nous transformons chaque événement en une expérience unique et inoubliable.</p>
+     
+             <p className='my-4 max-sm:px-1 leading-loose max-sm:text-lg' data-aos="slide-up"
          data-aos-delay="150"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Quel que soit l’événement que vous organisez, un mariage, une fête d’anniversaire ou une fête d’entreprise, nous avons tout ce qu’il vous faut !</p>
-
-          <Link to="/evenements" className="mt-6  cursor-pointer px-6 py-3 bg-[#000] border border-[#000]  text-white text-lg font-medium hover:text-black  hover:bg-white transition duration-500 hover:border-black ease-in-out">DECOUVRIR NOS SERVICES</Link>
-      </div>
-      </div>
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out">Mariage, anniversaire ou événement corporatif, Elikiabooth a tout ce qu’il vous faut pour capturer chaque sourire et chaque moment de joie.</p>
+     
+           </div>
+           </div>
 
       </div>
     </>
