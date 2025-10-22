@@ -454,7 +454,7 @@ const autres=[{
   
   {/* Premier texte */}
   <p 
-    className={`absolute inset-0 text-center  text-2xl py-3 transition-all duration-500 ease-in-out text-[#271a02] ${
+    className={`absolute inset-0 text-center  text-5xl py-3 transition-all duration-500 ease-in-out text-[#271a02] ${
       toggle ? "opacity-0 scale-95" : "opacity-100 scale-100"
     }`}
   >
@@ -463,7 +463,7 @@ const autres=[{
   
   {/* Deuxième texte */}
   <p 
-    className={`absolute inset-0 text-center text-black text-5xl font-Sans-Font  max-sm:text-2xl py-3 transition-all duration-500 ease-in-out  ${
+    className={`absolute inset-0 text-center text-black text-2xl font-Sans-Font  max-sm:text-2xl py-3 transition-all duration-500 ease-in-out  ${
       toggle ? "opacity-100 scale-100" : "opacity-0 scale-95"
     }`}
   >

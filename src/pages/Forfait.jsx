@@ -24,7 +24,7 @@ const Forfait = () => {
         <div className='p-3 w-1/2 max-sm:w-full'>
             <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Photobooth Miroir Magique</h1>
+    data-aos-easing="ease-in-out">DSLR Booth</h1>
             <div>
                 <p className='my-1 font-Sans-Font max-sm:text-xl' data-aos="slide-up"
                 data-aos-delay="50"
@@ -103,7 +103,7 @@ const Forfait = () => {
         <div className='p-3 w-1/2 max-sm:w-full'>
             <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Photobooth Miroir Magique</h1>
+    data-aos-easing="ease-in-out">Vidéo Booth 360</h1>
             <div>
                 <p className='my-1 font-Sans-Font max-sm:text-xl' data-aos="slide-up"
                 data-aos-delay="50"
@@ -132,8 +132,8 @@ const Forfait = () => {
                 </div>
             </div>
         </div>
-        <div className='h-1/2'>
-        <img src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' />
+        <div className='h-1/2 w-1/2 max-sm:w-full'>
+        <img src='photo_1_2025-10-18_13-20-11.jpg' />
         </div>
         
       </div>
@@ -183,7 +183,7 @@ const Forfait = () => {
         <div className='p-3 w-1/2 max-sm:w-full'>
             <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Photobooth Miroir Magique</h1>
+    data-aos-easing="ease-in-out">Livre audio d'or</h1>
             <div>
                 <p className='my-1 font-Sans-Font max-sm:text-xl' data-aos="slide-up"
                 data-aos-delay="50"
@@ -212,7 +212,7 @@ const Forfait = () => {
             </div>
         </div>
         <div className='h-1/2'>
-        <img src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' />
+        <img src='photo_10_2025-10-18_13-20-12.jpg' />
         </div>
         
       </div>
@@ -256,59 +256,7 @@ const Forfait = () => {
             </div>
         </div>
       </div>
-
-       <div className='w-full flex flex-col bg-[#9e8121]/30 items-center justify-center my-2 py-8 font-GaramondAntiqua'>
-       <div className='w-11/12 flex items-center justify-evenly max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-        <div className='p-3 w-1/2 max-sm:w-full'>
-            <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Photobooth Miroir Magique</h1>
-            <div>
-                <p className='my-1' data-aos="slide-up"
-                data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Libérez la magie avec notre photobooth à miroir carré.</p>
-                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
-
-                <h2 className='font-Sans-Font my-2 max-sm:text-xl' data-aos="slide-up"
-                data-aos-delay="100"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Inclus dans ce forfait photobooth :</h2>
-
-                <div>
-                    <ul className='font-Sans-Font max-sm:text-xl'>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1 '> Livraison et installation</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Partage de photos par SMS</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Costumes et accessoires amusants</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Cadre photo personnalisé</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Choix de la toile de fond</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Technicien-hôte sympathique sur place</li>
-                    </ul>
-                    <Link to="/contact">
-         <button className="mt-6 mx-3 text-3xl max-sm:text-xl cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
-         </Link>
-
-           <div className='border flex items-center justify-center flex-col py-2 px-2 bg-black mt-10 max-sm:mt-2' data-aos="slide-up"
-                data-aos-delay="130"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">
-                <p className='mt-2 text-white'>3 HEURES DE SERVICE</p>
-                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5  my-5 ' />
-                <p className='text-6xl text-[#9e8121] font-AdobeHebrew-italic'>749$</p>
-                 <Link to="/contact">
-         <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-black hover:bg-white transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
-         </Link>
-            </div>
-                </div>
-            </div>
-        </div>
-        <div className='h-full'>
-        <img src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' alt='' className='my-2' />
-         <img src='https://images.unsplash.com/photo-1727892349129-118c3a74823f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBib290aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500' alt='' className='' />
-        </div>
-        
-      </div>
-      </div>
+ 
 
          <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
         <p className='text-[#9e8121]/50 text-3xl my-3 '>Les étapes clés</p>
