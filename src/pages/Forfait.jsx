@@ -29,7 +29,7 @@ const Forfait = () => {
                 <p className='my-1 font-Sans-Font max-sm:text-xl' data-aos="slide-up"
                 data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Libérez la magie avec notre photobooth à miroir carré.</p>
+    data-aos-easing="ease-in-out">Libérez la magie avec notre DSLR Booth.</p>
                 <hr className='bg-[#9e8121]/80 border-2 border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
 
                 <h2 className='font-Sans-Font my-2 max-sm:text-xl' data-aos="slide-up"
@@ -108,7 +108,7 @@ const Forfait = () => {
                 <p className='my-1 font-Sans-Font max-sm:text-xl' data-aos="slide-up"
                 data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Libérez la magie avec notre photobooth à miroir carré.</p>
+    data-aos-easing="ease-in-out">Libérez la magie avec notre Vidéo Booth 360.</p>
                 <hr className='bg-[#9e8121]/80 border-2 border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
 
                 <h2 className='font-Sans-Font my-2 max-sm:text-xl'
@@ -188,7 +188,7 @@ const Forfait = () => {
                 <p className='my-1 font-Sans-Font max-sm:text-xl' data-aos="slide-up"
                 data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Libérez la magie avec notre photobooth à miroir carré.</p>
+    data-aos-easing="ease-in-out">Libérez la magie avec notre Livre audio d'or.</p>
                 <hr className='bg-[#9e8121]/80 border-2 border-[#9e8121] w-1/5 max-sm:w-2/5 my-5 ' />
 
                 <h2 className='font-Sans-Font my-2 max-sm:text-xl' data-aos="slide-up"
