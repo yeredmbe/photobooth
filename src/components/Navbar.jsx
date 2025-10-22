@@ -26,7 +26,7 @@ const Navbar = () => {
     const navLinks = [
         { name: "Acceuil", link: "/" },
         { name: "Photobooths", link: "/photobooth" },
-        { name: "Forfaits", link: "/forfaits" },
+        { name: "Nos Services", link: "/forfaits" },
         { name: "Evénements", link: "/evenements" },
         { name: "Nous contacter", link: "/contact" }
     ]

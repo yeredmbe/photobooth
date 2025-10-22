@@ -81,6 +81,9 @@ const autres=[{
 },{
     title:"Technicien-hote sympathique sur place",
     desc:"100$"
+},{
+  title:"Photo shooting",
+   desc:"100$"
 }]
 //   const text=[ {title:"Survolez-moi !", desc:"Contactez-nous pour plus d'informations!"},
 //     {title:"Survolez-moi !", desc:" Contactez-nous pour plus d'informations !"},
