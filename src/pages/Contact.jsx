@@ -92,7 +92,7 @@ const Contact = () => {
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">01</h1>
             <p className='text-3xl my-2'>Demande de devis</p>
-            <p className='font-Sans-Font text-black/65'>Remplissez notre formulaire avec les détails de votre Photobooth et de votre événement pour un devis personnalisé.</p>
+            <p className='font-Sans-Font text-black/65'>Complétez le formulaire et recevez votre devis personnalisé en un instant.</p>
         </div>
 
        <div className='mx-4 max-sm:mx-0 max-sm:my-6 '>
@@ -101,7 +101,7 @@ const Contact = () => {
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">02</h1>
             <p className='text-3xl my-2'>Réservation de service</p>
-            <p className='font-Sans-Font text-black/65'>Nous vous contacterons le plus rapidement possible pour discuter de vos besoins, fixer la date de votre événement et commencer les préparatifs.</p>
+            <p className='font-Sans-Font text-black/65'> Nous vous contacterons le plus rapidement possible pour discuter de vos besoins, fixer la date de votre événement et commencer les préparatifs.</p>
         </div>
 
         <div>
@@ -110,7 +110,7 @@ const Contact = () => {
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">03</h1>
             <p className='text-3xl my-2'>Jour de l'événement</p>
-            <p className='font-Sans-Font text-black/65'>Notre équipe livre, installe, assure une expérience sans faille et vous envoie un dossier cloud après l’événement.</p>
+            <p className='font-Sans-Font text-black/65'> Notre équipe s’occupe de tout : livraison, installation et envoi de vos souvenirs via le cloud.</p>
         </div>
       </div>
       </div>

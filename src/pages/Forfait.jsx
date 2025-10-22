@@ -280,7 +280,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">Demande de devis</p>
             <p className='font-Sans-Font text-black/65' data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Remplissez notre formulaire avec les détails de votre Photobooth et de votre événement pour un devis personnalisé.</p>
+    data-aos-easing="ease-in-out">Complétez le formulaire et recevez votre devis personnalisé en un instant.</p>
         </div>
 
        <div className='mx-4 max-sm:mx-0 max-sm:my-6 ' data-aos="slide-left"
@@ -306,7 +306,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">Jour de l'événement</p>
             <p className='font-Sans-Font text-black/65' data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Notre équipe livre, installe, assure une expérience sans faille et vous envoie un dossier cloud après l’événement.</p>
+    data-aos-easing="ease-in-out"> Notre équipe s’occupe de tout : livraison, installation et envoi de vos souvenirs via le cloud.</p>
         </div>
       </div>
       </div>
@@ -322,11 +322,12 @@ const Forfait = () => {
 
          <div >
                     <ul className='text-white font-Sans-Font max-sm:text-xl leading-loose'>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1 '> Un technicien expérimenté animera le Photobooth afin de garantir une expérience sans faille.</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Gère le processus d’impression pour vous faciliter la tâche.</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Organise la table des accessoires pour une installation propre et agréable.</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Crée une station de photobooth attrayante pour une expérience mémorable.</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Propose des idées de poses créatives, afin d’améliorer l’ensemble des séances photo.</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1 '> Un technicien expérimenté veille au bon déroulement de votre expérience photobooth .</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Anime et guide vos invités pour des séances fluides et conviviales.</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Supervise l’impression des photos pour un rendu parfait.</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Prépare et organise les accessoires avec soin.</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Met en place une station photobooth attrayante et bien agencée.</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Inspire vos invités avec des idées de poses créatives et originales.</li>
                     </ul>
                 
                 </div>
@@ -338,13 +339,13 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">Services complémentaires</h1>
          <hr className='border border-[#9e8121] w-1/5 my-2 '/> 
          
-         <p className='text-2xl text-[#a0710c] my-2 max-sm:text-lg'>Nous proposons plusieurs options pour améliorer votre expérience du photobooth.</p>
+         <p className='text-2xl text-[#a0710c] my-2 max-sm:text-lg'>Améliorez votre expérience photobooth avec nos options exclusives :</p>
          <div >
                     <ul className='text-white font-Sans-Font max-sm:text-xl leading-loose'>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1 '> Impressions instantanés illimités : 199$</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Tapis rouge VIP : 99$</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Écran vert : 99$</li>
-                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Album photo physique : 150$</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1 '> Impressions instantanées illimitées – 199 $</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Tapis rouge VIP – 99 $</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Écran vert – 99 $</li>
+                        <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Album photo physique – 150 $</li>
                         <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Panneaux de visage : 99$</li>
                          <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'> Événement AI : 99$</li>
                     </ul>
