@@ -29,7 +29,7 @@ const Carousel = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
       {/* Dark overlay container */}
-      <div className="relative w-full h-full after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black after:opacity-50 after:z-20">
+      <div className="relative w-full h-full after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black after:opacity-80 after:z-20">
         {images.length > 0 && images.map((image, index) => (
           <div 
             key={index} 

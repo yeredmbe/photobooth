@@ -549,7 +549,7 @@ data-aos-delay="200"
       </div>
 
    <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
-  <img src="photo_12_2025-10-18_13-20-12.jpg"  alt="" className='w-1/2 max-sm:w-full' />
+  <img src="ELIKIA EVENTS.png"  alt="" className='w-1/2 max-sm:w-full' />
   <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#9e8121]/40'>
     <h1 className='text-5xl my-2 font-GaramondAntiqua max-sm:text-3xl' data-aos="slide-right"
     data-aos-duration="1000"

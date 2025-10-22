@@ -135,18 +135,18 @@ const Contact = () => {
       </div>
 
     </div>
-     <p className='text-[#7a6d55] text-3xl my-2 font-AdobeHebrew-italic'>Suivez-nous sur les réseaux sociaux !</p>
+     <p className='text-[#7a6d55] text-3xl my-2 font-AdobeHebrew-italic max-sm:text-center'>Suivez-nous sur les réseaux sociaux !</p>
       <div className='flex items-center justify-between max-sm:justify-around max-sm:w-8/12 max-sm:px-2 '>
         <a href='' className='max-sm:my-3 flex items-center justify-center'><img src="./google.png" alt="" className='size-10 max-sm:size-6 mr-1' /> <p className='max-sm:hidden'> GOOGLE</p></a>
-        <a href='' className='max-sm:my-3 flex items-center justify-center mx-8'><img src="./instagram.png" alt="" className='size-10 max-sm:size-6 mr-1 ' /> <p className='max-sm:hidden'>INSTAGRAM</p> </a>
-        <a href='' className='max-sm:my-3 flex items-center justify-center'><img src="./social.png" alt="" className='size-10 max-sm:size-6 mr-1' /> <p className='max-sm:hidden'>FACEBOOK</p></a>
+        <a href='https://www.instagram.com/elikiaevents24?igsh=MWUxMmRiZ2ptajFjZg%3D%3D&utm_source=qr' className='max-sm:my-3 flex items-center justify-center mx-8'><img src="./instagram.png" alt="" className='size-10 max-sm:size-6 mr-1 ' /> <p className='max-sm:hidden'>INSTAGRAM</p> </a>
+        <a href='https://www.facebook.com/share/1CyDGcbTWT/?mibextid=wwXIfr' className='max-sm:my-3 flex items-center justify-center'><img src="./social.png" alt="" className='size-10 max-sm:size-6 mr-1' /> <p className='max-sm:hidden'>FACEBOOK</p></a>
        </div>
   </div>
 </div>
 
  <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24 max-sm:hidden'>
       <img 
-        src="photo_12_2025-10-18_13-20-12.jpg" 
+        src="ELIKIA EVENTS.png" 
         alt="Testimonials background" 
         className='w-1/2 max-sm:w-full object-cover'
       />

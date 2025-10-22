@@ -59,7 +59,7 @@ const Evenements = () => {
           alt="Photobooth event" 
           className='w-full h-96 object-cover'
         />
-        <div className='absolute left-1/2 top-1/2 text-center -translate-x-1/2 -translate-y-1/2 z-20 w-10/12'>
+        <div className='absolute left-1/2 top-1/2 text-center -translate-x-1/2 -translate-y-1/2 z-20 w-11/12'>
           <h1 className='text-8xl text-white my-3 max-sm:text-5xl max-sm:mx-2 uppercase' data-aos="slide-up"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
@@ -340,7 +340,7 @@ const Evenements = () => {
   const renderTestimonialsSection = () => (
     <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
       <img 
-        src="photo_12_2025-10-18_13-20-12.jpg" 
+        src="ELIKIA EVENTS.png" 
         alt="Testimonials background" 
         className='w-1/2 max-sm:w-full object-cover'
       />
