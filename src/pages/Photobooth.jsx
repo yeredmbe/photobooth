@@ -109,7 +109,7 @@ const autres=[{
            <p className='text-5xl mx-8 max-sm:mx-3 text-center max-sm:px-3 max-sm:text-center max-sm:text-4xl' data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">Photobooth Miroir Carré
+    data-aos-easing="ease-in-out">DSLR Booth
 À partir de  849$.</p>
            <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
         </div>
