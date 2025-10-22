@@ -86,9 +86,8 @@ const Evenements = () => {
           data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-             Faites ressortir le romantisme de votre journée spéciale grâce à nos magnifiques
-              cabines photo de mariage. Plongez dans la magie de
-              l'amour, en capturant chaque moment de joie qui rendra votre mariage unique.
+            Plongez dans la magie de votre grand jour avec les photobooths élégants d’Elikiabooth.
+Capturez chaque sourire, chaque regard et chaque moment d’amour qui rend votre mariage unique.
             </p>
         
             <h2 className='font-Sans-Font my-2 max-sm:text-2xl text-2xl underline'
@@ -100,13 +99,13 @@ const Evenements = () => {
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-                Options de décors romantiques
+               Décors et ambiances romantiques sur mesure
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-                Cadres personnalisés pour les jeunes mariés
+               Cadres photo personnalisés pour les jeunes mariés
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-                Installation d’un photobooth élégant et stylé
+                Installation d’un photobooth chic et raffiné
               </li>
              
             </ul>
@@ -138,9 +137,8 @@ const Evenements = () => {
           data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-             Transformez votre fête d'anniversaire en une fiesta remplie de photos grâce à nos cabines photo
-              pour fêtes d'anniversaire. Laissez les rires fuser et les 
-             souvenirs se multiplier alors que vous célébrez une nouvelle année de vie fantastique
+             Donnez vie à votre célébration avec les photobooths festifs d’Elikiabooth !
+Rires, poses et souvenirs instantanés feront de votre anniversaire un moment inoubliable.
             </p>
         
           <h2 className='font-Sans-Font my-2 max-sm:text-2xl text-2xl underline' data-aos="slide-up"
@@ -151,13 +149,13 @@ const Evenements = () => {
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-                Accessoires amusants et colorés
+               Accessoires amusants et colorés
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-              Cadres personnalisés pour la star de l’anniversaire
+              Cadres personnalisés pour la star du jour
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-              Options GIF animés pour plus de fun
+              Options GIF animées pour encore plus de fun
               </li>
              
             </ul>
@@ -189,9 +187,8 @@ const Evenements = () => {
           data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-             Donnez de la vie à vos fêtes et événements d'entreprise grâce à nos cabines photo dynamiques.
-              Qu'il s'agisse de célébrations de consolidation d'équipe ou de fêtes d'entreprise, nos cabines
-               photo ajoutent une touche d'excitation et créent des souvenirs impérissables.
+            Animez vos fêtes et événements professionnels avec les photobooths interactifs d’Elikiabooth !
+Qu’il s’agisse de team building ou de célébrations d’entreprise, nos cabines ajoutent de l’énergie et capturent des souvenirs mémorables.
             </p>
         
               <h2 className='font-Sans-Font my-2 max-sm:text-2xl text-2xl underline' data-aos="slide-up"
@@ -202,13 +199,13 @@ const Evenements = () => {
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-               Personnalisation de la marque pour les événements d’entreprise
+              Personnalisation aux couleurs et à l’identité de votre entreprise
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-            Fonctionnalités interactives attrayantes
+           Fonctionnalités interactives pour engager vos invités
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-                Partage instantané des médias sociaux pour une meilleure visibilité de l’entreprise
+                Partage instantané sur les réseaux sociaux pour maximiser votre visibilité
               </li>
              
             </ul>
@@ -240,9 +237,8 @@ const Evenements = () => {
           data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-            Célébrez n'importe quelle occasion grâce à nos cabines photographiques polyvalentes.
-             Des réunions de famille aux anniversaires, nos cabines photographiques 
-            s'adaptent à tous les événements, ajoutant une touche supplémentaire de plaisir et de spontanéité
+           Célébrez toutes vos occasions avec les photobooths polyvalents d’Elikiabooth !
+Des réunions de famille aux anniversaires, nos cabines apportent fun, spontanéité et souvenirs mémorables pour tous vos invités.
             </p>
         
             <h2 className='font-Sans-Font my-2 max-sm:text-2xl text-2xl underline' data-aos="slide-up"
@@ -253,13 +249,13 @@ const Evenements = () => {
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-                Installations flexibles et personnalisables
+              Installations flexibles et personnalisables
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-              Diverses options de décors
+             Multiples options de décors
               </li>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
-              Convivialité pour tous les groupes d’âge
+              Une expérience conviviale pour tous les âges
               </li>
              
             </ul>
