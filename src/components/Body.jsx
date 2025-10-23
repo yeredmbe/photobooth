@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Body = () => {
    const images = [
   { img: "photo_1_2025-10-21_00-31-23.jpg",title:"Photobooth Miroir Carré"},
-    {img:"photobooth.jpg",title:"Vidéo Booth 360"}
+    {img:"photo_2025-10-23_10-22-18.jpg",title:"Vidéo Booth 360"}
   ];
 
   const data=[{
