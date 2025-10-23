@@ -146,7 +146,7 @@ const Contact = () => {
 
  <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24 max-sm:hidden'>
       <img 
-        src="ELIKIA EVENTS.png" 
+        src="ELIKIA EVENT.png" 
         alt="Testimonials background" 
         className='w-1/2 max-sm:w-full object-cover'
       />

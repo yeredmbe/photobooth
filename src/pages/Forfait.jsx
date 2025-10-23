@@ -133,7 +133,7 @@ const Forfait = () => {
             </div>
         </div>
         <div className='h-1/2 w-1/2 max-sm:w-full'>
-        <img src='photo_1_2025-10-18_13-20-11.jpg' />
+        <img src='photo_2025-10-23_10-22-18.jpg' />
         </div>
         
       </div>

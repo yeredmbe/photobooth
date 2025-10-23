@@ -95,7 +95,7 @@ Capturez chaque sourire, chaque regard et chaque moment d’amour qui rend votre
           data-aos-delay="20"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-             Pourquoi choisir Elikia Events:
+             Pourquoi choisir Elikiabooth:
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
@@ -145,7 +145,7 @@ Rires, poses et souvenirs instantanés feront de votre anniversaire un moment in
           data-aos-delay="20"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-             Pourquoi choisir Elikia Events:
+             Pourquoi choisir Elikiabooth:
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
@@ -195,7 +195,7 @@ Qu’il s’agisse de team building ou de célébrations d’entreprise, nos cab
           data-aos-delay="20"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-             Pourquoi choisir Elikia Events:
+             Pourquoi choisir Elikiabooth:
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
@@ -245,7 +245,7 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
           data-aos-delay="20"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-             Pourquoi choisir Elikia Events:
+             Pourquoi choisir Elikiabooth:
             </h2>
             <ul className='font-Sans-Font max-sm:text-xl'>
               <li className='before:content-["*"] before:text-red-600 before:text-lg before:ml-1'>
@@ -336,7 +336,7 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
   const renderTestimonialsSection = () => (
     <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
       <img 
-        src="ELIKIA EVENTS.png" 
+        src="ELIKIA EVENT.png" 
         alt="Testimonials background" 
         className='w-1/2 max-sm:w-full object-cover'
       />
