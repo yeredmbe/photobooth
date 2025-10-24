@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Body = () => {
    const images = [
-  { img: "photo_1_2025-10-21_00-31-23.jpg",title:"Photobooth Miroir Carré"},
+  { img: "photo_2025-10-24_02-39-37.jpg",title:"Photobooth Miroir Carré"},
     {img:"photo_2025-10-23_10-22-18.jpg",title:"Vidéo Booth 360"}
   ];
 
@@ -115,7 +115,7 @@ Avec Elikiabooth, vos plus beaux souvenirs se partagent en un clic !</p>
           images.length > 0 && images.map((image, index) => (
             <div 
             key={index} 
-            className={`w-full h-full relative` }
+            className={`w-full h-full relative bg-amber-200/60` }
             data-aos="slide-up"
     data-aos-delay={index * 10}
     data-aos-duration="1000"
