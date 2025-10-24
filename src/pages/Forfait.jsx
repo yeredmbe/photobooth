@@ -65,7 +65,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl'>3 HEURES DE SERVICE</p>
                 <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]'>749$</p>
+                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]'>349$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -77,7 +77,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl text-white'>4 HEURES DE SERVICE</p>
                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl text-[#947306] font-AdobeHebrew-italic'>849$</p>
+                <p className='text-6xl text-[#947306] font-AdobeHebrew-italic'>449$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-black hover:bg-white transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -90,7 +90,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl'>6 HEURES DE SERVICE</p>
            <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]l'>999$</p>
+                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]l'>549$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -146,7 +146,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl'>3 HEURES DE SERVICE</p>
                 <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]'>749$</p>
+                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]'>349$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -158,7 +158,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl text-white'>4 HEURES DE SERVICE</p>
                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl text-[#947306] font-AdobeHebrew-italic'>849$</p>
+                <p className='text-6xl text-[#947306] font-AdobeHebrew-italic'>449$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-black hover:bg-white  transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -170,7 +170,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl'>6 HEURES DE SERVICE</p>
            <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]l'>999$</p>
+                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]l'>549$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -225,7 +225,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl'>3 HEURES DE SERVICE</p>
                 <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]'>749$</p>
+                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]'>349$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -237,7 +237,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl text-white'>4 HEURES DE SERVICE</p>
                <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl text-[#947306] font-AdobeHebrew-italic'>849$</p>
+                <p className='text-6xl text-[#947306] font-AdobeHebrew-italic'>449$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-black hover:bg-white transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
@@ -249,7 +249,7 @@ const Forfait = () => {
     data-aos-easing="ease-in-out">
                 <p className='mt-2 font-Sans-Font max-sm:text-2xl'>6 HEURES DE SERVICE</p>
            <hr className='bg-[#9e8121] border border-[#9e8121] w-1/5 my-5 ' />
-                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]l'>999$</p>
+                <p className='text-6xl font-AdobeHebrew-italic text-[#271a02]l'>549$</p>
                  <Link to="/contact">
          <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border  text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">DEMANDER UN DEVIS</button>
          </Link>
