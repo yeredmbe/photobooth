@@ -54,7 +54,7 @@ const Navbar = () => {
                         <img 
                             src='./elikia-event.png' 
                             alt='Company Logo' 
-                            className='size-28 my-2 max-sm:size-20 transition-transform hover:scale-105' 
+                            className='size-28 max-md:size-16 my-2 max-sm:size-20 transition-transform hover:scale-105' 
                         />
                     </Link>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
                             <Link 
                                 to={link.link} 
                                 key={index}
-                                className='mx-4 text-lg text-black hover:text-[#9e8121] transition-colors duration-300'
+                                className='mx-4 text-lg max-md:text-sm text-black hover:text-[#9e8121] transition-colors duration-300'
                             >
                                 {link.name}
                             </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Desktop Actions */}
-                    <div className='flex items-center justify-between max-sm:hidden'>
+                    <div className='flex items-center justify-between max-sm:hidden max-md:hidden'>
                         {/* <button className='hover:text-[#9e8121] transition-colors duration-300 cursor-pointer mx-4'>
                             LANGUAGE
                         </button> */}
