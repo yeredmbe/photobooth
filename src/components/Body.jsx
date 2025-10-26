@@ -147,7 +147,7 @@ Avec Elikiabooth, vos plus beaux souvenirs se partagent en un clic !</p>
         <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew' 
         data-aos="slide-up"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out">TPersonnalisez votre photobooth avec des accessoires, fonds et visuels qui reflètent parfaitement le style de votre événement.</h2>
+    data-aos-easing="ease-in-out">Personnalisez votre photobooth avec des accessoires, fonds et visuels qui reflètent parfaitement le style de votre événement.</h2>
 
 <div className='w-full p-4 max-sm:p-1 flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center'
 data-aos="slide-up"

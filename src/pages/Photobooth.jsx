@@ -106,15 +106,15 @@ const autres=[{
       </div>
 
        <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
-        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
+        <p className='text-[#f0a886]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
         <div className='w-10/12 max-sm:w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-           <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+           <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl mx-8 max-sm:mx-3 text-center max-sm:px-3 max-sm:text-center max-sm:text-4xl' data-aos="slide-up"
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">DSLR Booth
 À partir de  849$.</p>
-           <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+           <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
         </div>
       </div>
 
@@ -138,7 +138,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle1 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -169,7 +169,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle2 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -200,7 +200,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle3 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -231,7 +231,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle4 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -257,7 +257,7 @@ const autres=[{
 
 </div>
 <div 
-  className=" h-28 bg-[#ad933b] overflow-hidden relative cursor-pointer py-6 w-11/12 max-sm:w-full my-5 shadows font-GaramondAntiqua "
+  className=" h-28 bg-[#f0a886] overflow-hidden relative cursor-pointer py-6 w-11/12 max-sm:w-full my-5 shadows font-GaramondAntiqua "
   onMouseEnter={handleToggle}
   onMouseLeave={handleToggle}
 >
@@ -289,16 +289,16 @@ const autres=[{
 </div>
 
  
-<div className='bg-[#ad933b]/40 '>
+<div className='bg-[#f0a886]/40 '>
        <div className='w-full flex flex-col items-center justify-center my-8 py-8 font-GaramondAntiqua'>
-        <p className='text-[#9e8121]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
+        <p className='text-[#f0a886]/50 text-2xl my-3 uppercase'>Location de photobooth</p>
         <div className='w-10/12 max-sm:w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-           <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+           <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl mx-8 max-sm:mx-3 text-center max-sm:px-3 max-sm:text-center max-sm:text-4xl' data-aos="slide-up"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Vidéo Booth 360
 À partir de 849$.</p>
-           <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+           <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
         </div>
       </div>
 
@@ -322,7 +322,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle1 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -353,7 +353,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle2 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -384,7 +384,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle3 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -415,7 +415,7 @@ const autres=[{
 >
   {/* Fond qui slide */}
   <div 
-    className={`absolute inset-0 bg-[#ad933b] transition-transform duration-500 ease-in-out py-6 ${
+    className={`absolute inset-0 bg-[#f0a886] transition-transform duration-500 ease-in-out py-6 ${
       toggle4 ? "translate-y-0" : "translate-y-full"
     }`}
   />
@@ -441,7 +441,7 @@ const autres=[{
 
 </div>
 <div 
-  className=" h-28 bg-[#ad933b] overflow-hidden relative cursor-pointer py-6 w-11/12 max-sm:w-full my-5 shadows font-GaramondAntiqua "
+  className=" h-28 bg-[#f0a886] overflow-hidden relative cursor-pointer py-6 w-11/12 max-sm:w-full my-5 shadows font-GaramondAntiqua "
   onMouseEnter={handleToggle}
   onMouseLeave={handleToggle}
 >
@@ -477,13 +477,13 @@ const autres=[{
      <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12'>
         <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2 py-8'>
                <div className='w-10/12 max-sm:w-full flex flex-col items-center justify-center '>
-               <p className=' uppercase font-GaramondAntiqua text-2xl my-4 text-[#9e8121]'>Location de photobooth</p>
+               <p className=' uppercase font-GaramondAntiqua text-2xl my-4 text-[#f0a886]'>Location de photobooth</p>
                <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-                  <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+                  <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
                   <p className='text-4xl text-center max-sm:px-3 max-sm:text-center max-sm:text-3xl text-[#271a02]' data-aos="slide-up"
            data-aos-duration="1000"
            data-aos-easing="ease-in-out">Options Supplémentaires</p>
-                  <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+                  <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
                </div>
                <p className='w-2/5 text-center my-4 max-sm:w-full max-sm:px-4 font-Sans-Font max-sm:text-lg text-[#271a02]' data-aos="slide-up"
            data-aos-delay="50"
@@ -501,7 +501,7 @@ data-aos="slide-up"
          autres.length > 0 && autres.map((item, index) => (
             <div 
             key={index}
-            className='w-full flex bg-[#ad933b]/80 flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-6 px-2 max-sm:py-4 max-sm:px-2 text-black'>
+            className='w-full flex bg-[#e25d1f]/80 flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-6 px-2 max-sm:py-4 max-sm:px-2 text-black'>
               <p className='text-3xl font-GaramondAntiqua'>{item.title}</p>
               <p className='text-lg text-white'>Ajoutez a votre forfait {item.desc}</p>
               </div>))
@@ -510,7 +510,7 @@ data-aos="slide-up"
       </div>
 
       <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 max-sm:hidden'>
-        <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase font-GaramondAntiqua'>Personnalisez votre photobooth</h1>
+        <h1 className='text-center text-2xl text-[#f0a886]/50 my-3 uppercase font-GaramondAntiqua'>Personnalisez votre photobooth</h1>
         <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew' data-aos="slide-up"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Transformez l'expérience de votre événement grâce à nos visuels personnalisés !</h2>
@@ -522,7 +522,7 @@ data-aos-delay="200"
           data1.length > 0 && data1.map((item, index) => (
             <div 
             key={index}
-            className='w-full flex bg-[#ad933b]/80 mx-3 flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-8 px-4 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
+            className='w-full flex bg-[#e25d1f]/80  mx-3 flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-transform duration-500 ease-in-out justify-center text-center py-8 px-4 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
               <div className='size-24  rounded-full p-3  flex items-center  justify-center mx-auto'>
                  <img src={item.icon} className='size-16' />  
               </div>
@@ -533,15 +533,15 @@ data-aos-delay="200"
         </div>
       </div>
 
-       <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2 bg-[#9e8121]/40 py-8 font-GaramondAntiqua'>
+       <div className='w-full  flex flex-col items-center justify-center max-sm:my-0 mt-2 bg-[#f0a886]/40 py-8 font-GaramondAntiqua'>
         <div className='w-10/12 max-sm:w-full flex flex-col items-center justify-center '>
         <p className='text-white text-2xl my-4'>Demande de réservation</p>
         <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-           <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+           <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
            <p className='text-5xl text-center max-sm:px-3 max-sm:text-center max-sm:text-3xl text-[#271a02]' data-aos="slide-up"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Capturez les sourires. Créez des souvenirs.</p>
-           <hr className=' border-[#9e8121]/40 w-1/5 max-sm:hidden'/> 
+           <hr className=' border-[#f0a886]/40 w-1/5 max-sm:hidden'/> 
         </div>
         <p className='w-2/5 text-center my-4 max-sm:w-full max-sm:px-4 font-Sans-Font max-sm:text-lg text-[#271a02]' data-aos="slide-up"
         data-aos-delay="200"
@@ -553,7 +553,7 @@ data-aos-delay="200"
 
    <div className='w-full relative flex items-center justify-center max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:px-0 max-sm:my-0 max-sm:py-0 py-12 px-24'>
   <img src="ELIKIA EVENT.png"  alt="" className='w-1/2 max-sm:w-full' />
-  <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#9e8121]/40'>
+  <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#f0a886]/40'>
     <h1 className='text-5xl my-2 font-GaramondAntiqua max-sm:text-3xl' data-aos="slide-right"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">Voici ce que disent de nous</h1>

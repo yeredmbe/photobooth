@@ -110,7 +110,7 @@ Capturez chaque sourire, chaque regard et chaque moment d’amour qui rend votre
              
             </ul>
             <Link to="/contact">
-              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
+              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#e25d1f] border-[#e25d1f] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
                FAIRE UNE RESERVATION
               </button>
             </Link>
@@ -126,7 +126,7 @@ Capturez chaque sourire, chaque regard et chaque moment d’amour qui rend votre
       </div>
     </div>
 
-      <div className='w-full flex flex-col bg-[#9e8121]/30 items-center justify-center my-2 py-8 font-GaramondAntiqua text-[#271a02]'>
+      <div className='w-full flex flex-col bg-[#e25d1f]/30 items-center justify-center my-2 py-8 font-GaramondAntiqua text-[#271a02]'>
       <div className='w-11/12 flex items-center justify-evenly max-sm:flex-col max-sm:items-center max-sm:justify-center'>
         <div className='p-3 w-1/2 max-sm:w-full'>
           <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
@@ -160,7 +160,7 @@ Rires, poses et souvenirs instantanés feront de votre anniversaire un moment in
              
             </ul>
             <Link to="/contact">
-              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
+              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#e25d1f] border-[#e25d1f] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
                FAIRE UNE RESERVATION
               </button>
             </Link>
@@ -210,7 +210,7 @@ Qu’il s’agisse de team building ou de célébrations d’entreprise, nos cab
              
             </ul>
             <Link to="/contact">
-              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
+              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#e25d1f] border-[#e25d1f] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
                FAIRE UNE RESERVATION
               </button>
             </Link>
@@ -226,7 +226,7 @@ Qu’il s’agisse de team building ou de célébrations d’entreprise, nos cab
       </div>
     </div>
 
-          <div className='w-full flex flex-col bg-[#9e8121]/30 items-center justify-center my-2 py-8 font-GaramondAntiqua text-[#271a02]'>
+          <div className='w-full flex flex-col bg-[#e25d1f]/30 items-center justify-center my-2 py-8 font-GaramondAntiqua text-[#271a02]'>
       <div className='w-11/12 flex items-center justify-evenly max-sm:flex-col max-sm:items-center max-sm:justify-center'>
         <div className='p-3 w-1/2 max-sm:w-full'>
           <h1 className='text-6xl max-sm:text-5xl' data-aos="slide-up"
@@ -260,7 +260,7 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
              
             </ul>
             <Link to="/contact">
-              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#9e8121] border-[#9e8121] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
+              <button className="mt-6 mx-3 text-lg cursor-pointer px-6 py-3 bg-[#e25d1f] border-[#e25d1f] border text-white font-medium hover:text-white hover:bg-black transition duration-500 hover:border-black ease-in-out">
                FAIRE UNE RESERVATION
               </button>
             </Link>
@@ -280,7 +280,7 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
 
   const renderFeaturesSection = () => (
        <div className='w-full flex flex-col justify-center items-center max-sm:my-0 my-12 '>
-        <h1 className='text-center text-2xl text-[#9e8121]/50 my-3 uppercase'>Personnalisez votre photobooth</h1>
+        <h1 className='text-center text-2xl text-[#e25d1f]/50 my-3 uppercase'>Personnalisez votre photobooth</h1>
         <h2 className='text-center text-5xl w-10/12 font-AdobeHebrew' data-aos="slide-up"
           data-aos-delay="50"
     data-aos-duration="1000"
@@ -294,7 +294,7 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
           data-aos-delay={index * 10}
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"
-            className='w-full flex bg-[#ad933b]/80 mx-3 font-GaramondAntiqua flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-all duration-500 ease-in-out justify-center text-center py-8 px-4 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
+            className='w-full flex bg-[#e25d1f]/80  mx-3 font-GaramondAntiqua flex-col items-center hover:scale-[1.1] hover:translate-y-[-15px] transition-all duration-500 ease-in-out justify-center text-center py-8 px-4 max-sm:py-4 max-sm:px-2 text-black max-sm:my-4'>
               <div className='size-24  rounded-full p-3  flex items-center  justify-center mx-auto'>
                  <img src={item.icon} className='size-16' />  
               </div>
@@ -308,17 +308,17 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
   );
 
   const renderBookingSection = () => (
-    <div className='w-full flex flex-col items-center justify-center max-sm:my-0 mt-2 bg-[#9e8121]/40 py-8 font-GaramondAntiqua'>
+    <div className='w-full flex flex-col items-center justify-center max-sm:my-0 mt-2 bg-[#e25d1f]/40 py-8 font-GaramondAntiqua'>
       <div className='w-10/12 max-sm:w-full flex flex-col items-center justify-center'>
         <p className='text-white text-2xl my-4'>Demande de réservation</p>
         <div className='w-full flex items-center justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center'>
-          <hr className='border-[#9e8121]/40 w-1/5 max-sm:hidden' />
+          <hr className='border-[#e25d1f]/40 w-1/5 max-sm:hidden' />
           <p className='text-5xl text-center max-sm:px-3 max-sm:text-center max-sm:text-3xl text-[#271a02]' data-aos="slide-up"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
             Capturez les sourires. Créez des souvenirs.
           </p>
-          <hr className='border-[#9e8121]/40 w-1/5 max-sm:hidden' />
+          <hr className='border-[#e25d1f]/40 w-1/5 max-sm:hidden' />
         </div>
         <p className='w-2/5 text-center my-4 max-sm:w-full max-sm:px-4 font-Sans-Font max-sm:text-lg text-[#271a02]' data-aos="slide-up"
           data-aos-delay="50"
@@ -340,7 +340,7 @@ Des réunions de famille aux anniversaires, nos cabines apportent fun, spontané
         alt="Testimonials background" 
         className='w-1/2 max-sm:w-full object-cover'
       />
-      <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#9e8121]/40'>
+      <div className='w-1/2 relative ml-16 p-5 max-sm:ml-0 max-sm:w-full max-sm:py-4 max-sm:text-center font-Sans-Font text-[#271a02] max-sm:bg-[#e25d1f]/40'>
         <h1 className='text-5xl my-2 font-GaramondAntiqua max-sm:text-3xl' data-aos="slide-right"
           data-aos-delay="50"
     data-aos-duration="1000"
