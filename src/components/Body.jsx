@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Body = () => {
    const images = [
-  { img: "photo_2025-10-24_02-39-37.jpg",title:"Photobooth Miroir Carré"},
-    {img:"photo_2025-10-23_10-22-18.jpg",title:"Vidéo Booth 360"}
+  { img: "photo_2025-10-24_02-39-37.jpg",title:"DSLR Booth" },
+    {img:"photo_2025-10-23_10-22-18.jpg",title:"Vidéo Booth 360"},
+    {img:"photo_10_2025-10-18_13-20-12.jpg",title:"Livre d'or audio"}, 
   ];
 
   const data=[{
