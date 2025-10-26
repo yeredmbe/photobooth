@@ -15,9 +15,8 @@ const PhotoboothForm = () => {
   const [loading, setLoading] = useState(false);
 
   const photoboothOptions = [
-    "Miroir Carré",
-    "Miroir Rond",
-    "Selfi PAD",
+    "DSLR Booth",
+    "Livre d'or audio",
     "Video Booth 360",
   ];
 
@@ -96,7 +95,7 @@ setLoading(false);
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#e25d1f] transition-colors duration-200"
             />
           </div>
 
@@ -112,7 +111,7 @@ setLoading(false);
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#e25d1f] transition-colors duration-200"
             />
           </div>
 
@@ -127,7 +126,7 @@ setLoading(false);
               placeholder="Eg. 541 444 0755"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#e25d1f] transition-colors duration-200"
             />
           </div>
 
@@ -141,7 +140,7 @@ setLoading(false);
               name="date"
               value={formData.date}
               onChange={handleChange}
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#e25d1f] transition-colors duration-200"
             />
           </div>
 
@@ -156,14 +155,14 @@ setLoading(false);
               placeholder="Eg. CANADA, 1234 STREET"
               value={formData.address}
               onChange={handleChange}
-              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border-b border-gray-300 focus:outline-none focus:border-[#e25d1f] transition-colors duration-200"
             />
           </div>
 
           {/* Photobooth */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
-              Le photobooth désiré
+              Les services désiré
             </label>
             <div className="flex flex-col gap-2 text-sm text-gray-700">
               {photoboothOptions.map((option) => (
@@ -177,9 +176,9 @@ setLoading(false);
                     value={option}
                     checked={formData.photobooth === option}
                     onChange={handleChange}
-                    className="appearance-none h-4 w-4 border border-gray-400 rounded-full checked:border-[#9e8121] checked:bg-[#9e8121] focus:outline-none focus:ring-2 focus:ring-[#9e8121]/40 transition-all duration-200"
+                    className="appearance-none h-4 w-4 border border-gray-400 rounded-full checked:border-gray-400 checked:bg-[#e25d1f] focus:outline-none focus:ring-2 focus:ring-[#e25d1f]/40 transition-all duration-200"
                   />
-                  <span className="group-hover:text-[#9e8121] transition-colors duration-200">
+                  <span className="group-hover:text-[#e25d1f] transition-colors duration-200">
                     {option}
                   </span>
                 </label>
@@ -197,7 +196,7 @@ setLoading(false);
               value={formData.message}
               onChange={handleChange}
               placeholder="Dites-nous plus sur votre évènement..."
-              className="w-full p-2 border border-gray-300 rounded-md h-24 resize-none focus:outline-none focus:border-[#9e8121] transition-colors duration-200"
+              className="w-full p-2 border border-gray-300 rounded-md h-24 resize-none focus:outline-none focus:border-[#e25d1f] transition-colors duration-200"
             />
           </div>
 
@@ -206,7 +205,7 @@ setLoading(false);
             <button
               type="submit"
               disabled={loading}
-              className={`bg-[#9e8121]/90 hover:bg-[#9e8121] text-white font-semibold py-2 px-6 rounded-md shadow-sm transition-colors duration-200 ${
+              className={`bg-[#e25d1f]/90 hover:bg-[#e25d1f] text-white font-semibold py-2 px-6 rounded-md shadow-sm transition-colors duration-200 ${
                 loading ? "opacity-70 cursor-not-allowed" : ""
               }`}
             >

@@ -64,7 +64,7 @@ const Navbar = () => {
                             <Link 
                                 to={link.link} 
                                 key={index}
-                                className='mx-4 text-lg max-md:text-sm text-black hover:text-[#9e8121] transition-colors duration-300'
+                                className='mx-4 text-lg max-md:text-sm text-black hover:text-[#e25d1f] transition-colors duration-300'
                             >
                                 {link.name}
                             </Link>
@@ -73,12 +73,12 @@ const Navbar = () => {
 
                     {/* Desktop Actions */}
                     <div className='flex items-center justify-between max-sm:hidden max-md:hidden'>
-                        {/* <button className='hover:text-[#9e8121] transition-colors duration-300 cursor-pointer mx-4'>
+                        {/* <button className='hover:text-[#e25d1f] transition-colors duration-300 cursor-pointer mx-4'>
                             LANGUAGE
                         </button> */}
                         <Link 
                             to="/contact" 
-                            className='uppercase bg-[#9e8121]/70 px-5 py-4 cursor-pointer  text-white hover:bg-[#ac8402] transition-colors duration-300'
+                            className='uppercase bg-[#e25d1f]/70 px-5 py-4 cursor-pointer  text-white hover:bg-[#ac8402] transition-colors duration-300'
                         >
                             Reserver
                         </Link>
@@ -111,7 +111,7 @@ const Navbar = () => {
                     </Link>
                     
                     <button 
-                        className='p-2 text-white hover:text-[#9e8121] transition-colors'
+                        className='p-2 text-white hover:text-[#e25d1f] transition-colors'
                         onClick={() => setIsMenuOpen(false)}
                         aria-label="Close menu"
                     >
@@ -133,7 +133,7 @@ const Navbar = () => {
     data-aos-delay={index * 10}
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"
-                            className='my-4 text-xl font-semibold text-white hover:text-[#9e8121] transition-colors duration-300 py-2'
+                            className='my-4 text-xl font-semibold text-white hover:text-[#e25d1f] transition-colors duration-300 py-2'
                             onClick={() => setIsMenuOpen(false)}
                         >
                             {link.name}
@@ -143,7 +143,7 @@ const Navbar = () => {
                     {/* Mobile Reservation Button */}
                     <Link 
                         to="/contact" 
-                        className='mt-6 uppercase bg-[#9e8121]/70 px-6 py-3 text-white hover:bg-[#ac8402] transition-colors duration-300'
+                        className='mt-6 uppercase bg-[#e25d1f]/70 px-6 py-3 text-white hover:bg-[#ac8402] transition-colors duration-300'
                         onClick={() => setIsMenuOpen(false)}
                     >
                         Reserver
@@ -152,7 +152,7 @@ const Navbar = () => {
 
                 {/* Footer Credit */}
                 <a href='https://faurzanext.com/' className='absolute bottom-4 left-0 right-0 text-center'>
-                    <p className='text-sm text-[#9e8121] flex items-center justify-center font-AdobeHebrew-italic'>
+                    <p className='text-sm text-[#e25d1f] flex items-center justify-center font-AdobeHebrew-italic'>
                         Developed with 
                         <img 
                             src='./love.png' 
