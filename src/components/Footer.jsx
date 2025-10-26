@@ -5,10 +5,10 @@ const Footer = () => {
     <>
       <div className='w-full'>
         <div className='w-full py-8 max-sm:py-2 bg-[#222221] flex justify-around max-sm:flex-col max-sm:items-center max-sm:justify-center '>
-            <div className='flex items-center max-sm:my-2'><img src='./loaction.png' className='size-12 max-sm:size-8 max-sm:hidden' /> <p className='text-xl max-sm:text-lg text-center text-[#7a6d55] ml-2 font-AdobeHebrew-italic'> place corbeil, Montréal J7K 0E5
+            <div className='flex items-center max-sm:my-2'><img src='./loaction.png' className='size-12 max-sm:size-8 max-sm:hidden' /> <p className='text-xl max-sm:text-lg text-center text-[#f0a886] ml-2 font-AdobeHebrew-italic'> place corbeil, Montréal J7K 0E5
 Mascouche QC</p> </div>
-            <a href='tel:683034005' className='flex items-center max-sm:my-2'><img src='./telephone.png' className='size-12 max-sm:size-8' /><p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>+123456789</p> </a>
-            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./mail.png' className='size-12 max-sm:size-8' /> <p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>example66@gmail.com</p> </a>
+            <a href='tel:683034005' className='flex items-center max-sm:my-2'><img src='./telephone.png' className='size-12 max-sm:size-8' /><p className='text-xl max-sm:text-lg text-center text-[#f0a886]  ml-2 font-AdobeHebrew-italic'>+123456789</p> </a>
+            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./mail.png' className='size-12 max-sm:size-8' /> <p className='text-xl max-sm:text-lg text-center text-[#f0a886]  ml-2 font-AdobeHebrew-italic'>example66@gmail.com</p> </a>
         </div>
         <div className='py-8 max-sm:py-2 text-white bg-black flex justify-evenly items-center  max-sm:-flex max-sm:flex-col max-sm:items-center max-sm:justify-center '>
         {/* <hr className='border-1 border-red-600'/> */}
