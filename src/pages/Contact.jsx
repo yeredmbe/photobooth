@@ -124,22 +124,22 @@ const Contact = () => {
     <div className='flex items-center justify-between w-full max-sm:flex-col max-sm:items-center max-sm:justify-center'>
      <div className='flex flex-col max-sm justify-center items-center'>
         <h1 className='text-white text-5xl  font-GaramondAntiqua my-2'>Nous joindre</h1>
-          <a href='tel:683034005' className='flex items-center my-2'><img src='./telephone.png' className='size-10 max-sm:size-6' /><p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>+123456789</p> </a>
-            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./mail.png' className='size-10 max-sm:size-6' /> <p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>example66@gmail.com</p> </a>
+          <a href='tel:683034005' className='flex items-center my-2'><img src='./telephone.png' className='size-10 max-sm:size-6' /><p className='text-xl max-sm:text-lg text-center text-[#f0a886]  ml-2 font-AdobeHebrew-italic'>+123456789</p> </a>
+            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./mail.png' className='size-10 max-sm:size-6' /> <p className='text-xl max-sm:text-lg text-center text-[#f0a886]  ml-2 font-AdobeHebrew-italic'>example66@gmail.com</p> </a>
       </div>
     
       <div className='flex flex-col max-sm justify-center items-center'>
         <h1 className='text-white text-5xl  font-GaramondAntiqua my-2'>Nos horaires</h1>
-          <a href='tel:683034005' className='flex items-center my-2'><img src='./calendar.png' className='size-10 max-sm:size-6' /><p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>Lundi - Vendredi</p> </a>
-            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./time.png' className='size-10 max-sm:size-6' /> <p className='text-xl max-sm:text-lg text-center text-[#7a6d55]  ml-2 font-AdobeHebrew-italic'>9:00 AM - 9:00 PM</p> </a>
+          <a href='tel:683034005' className='flex items-center my-2'><img src='./calendar.png' className='size-10 max-sm:size-6' /><p className='text-xl max-sm:text-lg text-center text-[#f0a886]  ml-2 font-AdobeHebrew-italic'>Lundi - Vendredi</p> </a>
+            <a href='mailto:example66@gmail.com' className='flex items-center max-sm:my-2'><img src='./time.png' className='size-10 max-sm:size-6' /> <p className='text-xl max-sm:text-lg text-center text-[#f0a886]  ml-2 font-AdobeHebrew-italic'>9:00 AM - 9:00 PM</p> </a>
       </div>
 
     </div>
-     <p className='text-[#7a6d55] text-3xl my-2 font-AdobeHebrew-italic max-sm:text-center'>Suivez-nous sur les réseaux sociaux !</p>
+     <p className='text-[#f0a886] text-3xl my-2 font-AdobeHebrew-italic max-sm:text-center'>Suivez-nous sur les réseaux sociaux !</p>
       <div className='flex items-center justify-between max-sm:justify-around max-sm:w-8/12 max-sm:px-2 '>
-        <a href='' className='max-sm:my-3 flex items-center justify-center'><img src="./google.png" alt="" className='size-10 max-sm:size-6 mr-1' /> <p className='max-sm:hidden'> GOOGLE</p></a>
-        <a href='https://www.instagram.com/elikiaevents24?igsh=MWUxMmRiZ2ptajFjZg%3D%3D&utm_source=qr' className='max-sm:my-3 flex items-center justify-center mx-8'><img src="./instagram.png" alt="" className='size-10 max-sm:size-6 mr-1 ' /> <p className='max-sm:hidden'>INSTAGRAM</p> </a>
-        <a href='https://www.facebook.com/share/1CyDGcbTWT/?mibextid=wwXIfr' className='max-sm:my-3 flex items-center justify-center'><img src="./social.png" alt="" className='size-10 max-sm:size-6 mr-1' /> <p className='max-sm:hidden'>FACEBOOK</p></a>
+        <a href='' className='max-sm:my-3 flex items-center justify-center'><img src="./google.png" alt="" className='size-10 max-sm:size-6 mr-1' /></a>
+        <a href='https://www.instagram.com/elikiaevents24?igsh=MWUxMmRiZ2ptajFjZg%3D%3D&utm_source=qr' className='max-sm:my-3 flex items-center justify-center mx-8'><img src="./instagram.png" alt="" className='size-10 max-sm:size-6 mr-1 ' />  </a>
+        <a href='https://www.facebook.com/share/1CyDGcbTWT/?mibextid=wwXIfr' className='max-sm:my-3 flex items-center justify-center'><img src="./social.png" alt="" className='size-10 max-sm:size-6 mr-1' /> </a>
        </div>
   </div>
 </div>
